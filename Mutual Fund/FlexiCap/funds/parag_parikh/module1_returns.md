@@ -129,10 +129,103 @@ Three compounding reasons:
 | Metric | Value | Source |
 |--------|-------|--------|
 | Beta vs Nifty 500 | 0.55 | PrimeInvestor |
+| Upside Capture Ratio | ~90% | PrimeInvestor |
 | Downside Capture Ratio | 59% | PrimeInvestor |
 | Portfolio Turnover | ~20% | PrimeInvestor |
 
-Low downside capture (59%) means in falling markets, this fund falls only 59% as much as the benchmark — very protective for SIP investors who might panic during crashes.
+---
+
+## Upside vs Downside Capture Asymmetry
+
+```mermaid
+xychart-beta
+    title "Capture Ratios vs Benchmark (NIFTY 500 TRI)"
+    x-axis ["Upside Capture", "Downside Capture"]
+    y-axis "% of Benchmark Move Captured" 0 --> 120
+    bar [90, 59]
+    line [100, 100]
+```
+> Bar = Parag Parikh | Line = symmetric 100/100 baseline (most funds)
+
+| Ratio | PP Value | Category Typical | Interpretation |
+|-------|----------|-----------------|----------------|
+| Upside Capture | **90%** | ~100% | Captures 90% of bull market gains |
+| Downside Capture | **59%** | ~95% | Falls only 59% as much during crashes |
+| Asymmetry | **90/59 = 1.52x** | ~1.05x | Gets significantly more upside than downside |
+
+This is the most investor-friendly capture profile among the shortlisted 9 funds. A 90/59 profile means: if the market goes up 20%, the fund goes up ~18%; if the market falls 20%, the fund falls only ~12%. This asymmetry compounds favourably over long SIP horizons.
+
+---
+
+## Calendar Year Returns (Source: PPFAS NAV History, 2016–2026)
+
+```mermaid
+xychart-beta
+    title "Calendar Year Returns — Parag Parikh Flexi Cap (Direct)"
+    x-axis ["2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026 YTD"]
+    y-axis "Return %" -10 --> 55
+    bar [4.11, 30.10, 0.16, 15.34, 33.55, 46.97, -6.29, 37.64, 24.81, 8.55, -3.83]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+```
+> Line = zero reference | 2026 YTD as of 10-May-2026
+
+| Year | Return | Notes |
+|------|--------|-------|
+| 2016 | +4.11% | Demonetization year — muted |
+| 2017 | +30.10% | Strong domestic bull run |
+| 2018 | +0.16% | Near-flat; mid/small crash year |
+| 2019 | +15.34% | Selective recovery |
+| 2020 | **+33.55%** | Full year positive despite COVID crash |
+| 2021 | **+46.97%** | Best calendar year in fund history |
+| 2022 | **-6.29%** | Only negative year in 10 full years |
+| 2023 | +37.64% | Post-correction recovery |
+| 2024 | +24.81% | Solid domestic performance |
+| 2025 | +8.55% | Slowing momentum |
+| 2026 YTD | -3.83% | Current weakness (as of 10-May-2026) |
+
+**Record: 9 positive years out of 10 full calendar years.** The fund was cash-flow positive for SIP investors in every year except 2022. Even the negative year (-6.29%) is shallow relative to category peers who fell 10–15% in 2022.
+
+---
+
+## COVID Crash Analysis (Feb–Mar 2020)
+
+```mermaid
+xychart-beta
+    title "NAV Movement — COVID Crash & Recovery (2020)"
+    x-axis ["Feb 19 (Peak)", "Mar 23 (Trough)", "Dec 31 (Year End)"]
+    y-axis "NAV (₹)" 15 --> 40
+    line [29.27, 20.16, 37.05]
+```
+
+| Event | Date | NAV | Change |
+|-------|------|-----|--------|
+| Pre-crash peak | 19-Feb-2020 | ₹29.27 | — |
+| Crash trough | 23-Mar-2020 | ₹20.16 | **-31.1%** |
+| Year-end recovery | 31-Dec-2020 | ₹37.05 | **+83.8%** from trough |
+| Full year 2020 | — | — | **+33.55%** |
+
+- Fund fell -31.1% peak-to-trough vs Nifty 500's ~-38% → **protected ~700 bps during the crash**
+- Recovery was swift: from trough to year-end in just ~9 months, the fund nearly doubled (+83.8%)
+- SIP investors who stayed invested through the crash accumulated units at ₹20–22 NAV, which recovered to ₹37 by December
+
+---
+
+## SIP XIRR vs Lumpsum CAGR
+
+```mermaid
+xychart-beta
+    title "SIP XIRR vs Lumpsum CAGR — SIP Advantage"
+    x-axis ["3Y CAGR", "3Y SIP XIRR", "5Y CAGR", "5Y SIP XIRR"]
+    y-axis "Return %" 14 --> 22
+    bar [17.67, 18.99, 16.60, 17.36]
+```
+
+| Period | Lumpsum CAGR | SIP XIRR | SIP Advantage |
+|--------|-------------|----------|---------------|
+| 3 Years | 17.67% | **18.99%** | **+1.32%** |
+| 5 Years | 16.60% | **17.36%** | **+0.76%** |
+
+SIP investors earned more than lumpsum investors because rupee cost averaging collected extra units during the 2022 dip and volatile patches. The advantage is real but modest — PP's low volatility (9.06%) is a double-edged factor: it means fewer extreme dips to exploit via averaging, but also fewer panic-inducing drops.
 
 ---
 
@@ -141,11 +234,13 @@ Low downside capture (59%) means in falling markets, this fund falls only 59% as
 | Sub-dimension | Score (1–5) | Reasoning |
 |---------------|------------|-----------|
 | Long-term returns (5Y+) | 5 | 10Y CAGR 18.34%, rolling avg 22.64% — among the best |
-| Consistency across periods | 4 | Strong at 3Y/5Y/10Y; weak at 1Y only |
-| Alpha generation | 4 | +5% over 10Y vs benchmark; temporarily negative |
-| Peer outperformance | 4 | 1.3x–1.7x across long periods; lagging short-term |
+| Consistency across periods | 5 | 9/10 positive calendar years; only -6.29% in worst year; COVID year still +33.55% |
+| Alpha generation | 4 | +5% over 10Y vs benchmark; temporarily negative at 1Y |
+| Peer outperformance | 4 | 1.3x–1.7x across long periods; lagging short-term only |
+| Capture ratio asymmetry | 5 | 90/59 upside/downside — best profile among shortlisted 9 |
+| SIP XIRR premium | 4 | +1.32% (3Y) and +0.76% (5Y) SIP advantage over lumpsum |
 | Recent momentum | 2 | Negative 3M, 6M, weak 1Y — clearly in rough patch |
-| **Module 1 Overall** | **4 / 5** | Exceptional long-term; going through style-driven slump |
+| **Module 1 Overall** | **4.5 / 5** | Exceptional long-term consistency and crash resilience; style-driven near-term slump |
 
 ---
 
