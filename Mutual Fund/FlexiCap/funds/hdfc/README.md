@@ -32,8 +32,8 @@ The 10Y track record spans two very different managers with different styles. Th
 | Module | Status | File |
 |--------|--------|------|
 | 1 — Returns Consistency | Complete | [module1_returns.md](module1_returns.md) |
-| 2 — Risk Profile | Not started | — |
-| 3 — Portfolio DNA | Not started | — |
-| 4 — Cost & AUM Impact | Not started | — |
-| 5 — Fund Manager | Not started | — |
+| 2 — Risk Profile | Complete | [module2_risk.md](module2_risk.md) |
+| 3 — Portfolio DNA | Complete | [module3_portfolio.md](module3_portfolio.md) |
+| 4 — Cost & AUM Impact | Complete | [module4_cost.md](module4_cost.md) |
+| 5 — Fund Manager | Complete | [module5_manager.md](module5_manager.md) |
 | 6 — AMC Quality | Not started | — |
