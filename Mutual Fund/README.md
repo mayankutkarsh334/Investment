@@ -20,7 +20,8 @@ Mutual Fund/
     ├── study_plan.md          ← 6-module deep study framework
     └── funds/                 ← One folder per shortlisted fund
         ├── parag_parikh/      ← Deep study: Parag Parikh Flexi Cap (all 6 modules complete)
-        └── hdfc/              ← Deep study: HDFC Flexi Cap (all 6 modules complete — score 2.95/5)
+        ├── hdfc/              ← Deep study: HDFC Flexi Cap (all 6 modules complete — score 2.95/5)
+        └── quant/             ← Deep study: Quant Flexi Cap (module 1 complete)
 ```
 
 ## Shortlisted Funds (9 funds for deep study)
@@ -47,7 +48,7 @@ Reliability: Moderate — good for screening; cross-verify key figures on Valuer
 |------|--------|
 | Parag Parikh Flexi Cap | All 6 modules complete |
 | HDFC Flexi Cap | All 6 modules complete (score: 2.95/5) |
-| Quant Flexi Cap | Not started |
+| Quant Flexi Cap | Module 1 complete (3.5/5) |
 | JM Flexicap | Not started |
 | Edelweiss Flexi Cap | Not started |
 | HSBC Flexi Cap | Not started |
