@@ -36,4 +36,20 @@ The 10Y track record spans two very different managers with different styles. Th
 | 3 — Portfolio DNA | Complete | [module3_portfolio.md](module3_portfolio.md) |
 | 4 — Cost & AUM Impact | Complete | [module4_cost.md](module4_cost.md) |
 | 5 — Fund Manager | Complete | [module5_manager.md](module5_manager.md) |
-| 6 — AMC Quality | Not started | — |
+| 6 — AMC Quality | Complete | [module6_amc.md](module6_amc.md) |
+
+---
+
+## Overall Scorecard (All 6 Modules)
+
+| Module | Weight | Score | Weighted Score |
+|--------|--------|-------|---------------|
+| 1 — Returns Consistency | 25% | 3.5 / 5 | 0.875 |
+| 2 — Risk Profile | 20% | 2.5 / 5 | 0.500 |
+| 3 — Portfolio DNA | 15% | 3.0 / 5 | 0.450 |
+| 4 — Cost & AUM Impact | 20% | 3.0 / 5 | 0.600 |
+| 5 — Fund Manager | 15% | 2.5 / 5 | 0.375 |
+| 6 — AMC Quality | 5% | 3.0 / 5 | 0.150 |
+| **Overall** | **100%** | — | **2.95 / 5** |
+
+**One-line verdict:** HDFC Flexi Cap is a high-return, high-risk large-cap fund with India's deepest research backing — let down by its worst-in-class max drawdown, three manager changes in four years, and a bank-subsidiary AMC whose commercial orientation contrasts sharply with its strong financial stability; the 5Y CAGR (20.05%) is impressive but built partly on mean-reversion from Prashant Jain's depressed portfolio, and the current manager has just 3 months of track record on this fund.
