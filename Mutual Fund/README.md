@@ -48,7 +48,7 @@ Reliability: Moderate — good for screening; cross-verify key figures on Valuer
 |------|--------|
 | Parag Parikh Flexi Cap | All 6 modules complete |
 | HDFC Flexi Cap | All 6 modules complete (score: 2.95/5) |
-| Quant Flexi Cap | Module 1 complete (3.5/5) |
+| Quant Flexi Cap | Modules 1–2 complete |
 | JM Flexicap | Not started |
 | Edelweiss Flexi Cap | Not started |
 | HSBC Flexi Cap | Not started |
