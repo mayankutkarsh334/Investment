@@ -1,317 +1,293 @@
-# Module 6: AMC Quality — Quant Flexi Cap Fund
+# Module 6: AMC Trustworthiness — Quant Flexi Cap Fund
 
-*Source: SEBI orders database, SEBI enforcement orders (June 2024), Quant Mutual Fund website, financial news archives, AMFI data (May 2026)*
+## Raw Data (Sources: SEBI Orders | BW Businessworld | Business Standard | Moneylife | Outlook Money | Groww | Web research May 2026)
 
----
-
-## AMC Overview
-
-| Field | Value |
-|-------|-------|
-| AMC Name | Quant Money Managers Limited |
-| Former Name | Escorts Mutual Fund (rebranded ~2018) |
-| Ownership | Founder-controlled; Sandeep Tandon (CIO) is the key principal |
-| SEBI Registration | SEBI-registered AMC |
-| Total Schemes | ~18 (Flexi Cap, Small Cap, Mid Cap, ELSS, Multi Asset, Infra, Commodities, etc.) |
-| Flexi Cap AUM | ₹6,593 Cr |
-| Total AMC AUM (est.) | ~₹80,000–90,000 Cr (across all schemes, as of early 2026) |
-| Flexi Cap ER | 0.82% |
-| Est. Annual Fee Revenue (Flexi Cap) | ~₹54 Cr (0.82% × ₹6,593 Cr) |
-| Regulatory Actions | **Active SEBI investigation (2024) — front-running probe** |
+| Metric | Value | Notes |
+|--------|-------|-------|
+| AMC Full Name | **Quant Money Managers Limited (QMML)** | Unlisted, private company |
+| Founded | **1996 (SEBI approval); rebuilt 2008** | Tandon acquired and rebuilt from near-zero |
+| Promoter | **Sandeep Tandon** | Founder, sole visible promoter; owns majority stake |
+| Parent Company | **None** | Fully independent AMC; no financial group backing |
+| Listing Status | **Unlisted, private** | No public shareholders; no external governance checks |
+| Total AUM | **~₹94,000 Cr** | As of May 2026 (recovered from post-probe dip) |
+| Total Schemes | **33** | 20+ equity, 3 debt, 4+ hybrid; proliferating rapidly |
+| SEBI Investigation Status | **Settlement filed; pending final approval (as of May 2026)** | Front-running case; ₹10 Cr+ demanded per party |
+| Data Deletion Allegation | **Yes** | Devices allegedly wiped the day before SEBI raid (June 2024) |
+| CFO Resignation | **Harshal Patel resigned Feb 2024** | 4 months before SEBI raid; AMC claimed it was pre-planned |
+| Investor Letters Published | **None** | No periodic investor communication |
+| Skin-in-Game Disclosure | **Not disclosed** | No formal declaration |
+| Settlement Amount (SEBI demand) | **~₹10 Cr each** | From Tandon and HNI Sumana Paruchuri |
+| Post-Probe Redemptions | **₹2,800 Cr net outflows** | In the week following SEBI raid disclosure |
 
 ---
 
 ## What Module 6 Is Really Asking
 
-When you invest in a mutual fund, you are trusting not just a fund manager but the entire institution behind them. AMC quality answers: Is this organisation run with integrity? Will it still exist in 10 years? Does it put investors first or fee income first? Are there regulatory skeletons in the closet?
+For most funds, the AMC quality module is a secondary check — a governance layer over an already-evaluated investment thesis. For Quant, Module 6 is the central question. Every other module assessed a fund with extraordinary return potential but significant red flags. Module 6 asks whether the institution behind that return potential is trustworthy enough to hand ₹20,000 every month for the next decade.
 
-These questions don't show up in CAGR charts. But they determine whether your money is safe in the long run — and whether the returns you see in historical data were generated ethically or at your expense.
-
-For Quant, Module 6 has a single dominant issue that overshadows everything else.
+The answer requires confronting an uncomfortable sequence of events: a SEBI raid based on front-running suspicions, digital data allegedly wiped from devices the day before the raid, a CFO exit four months before the investigation became public, and the fund's CIO — the person making every investment decision — personally filing for a settlement with SEBI. This is not a historical incident involving former employees. This is the current management, actively under scrutiny, while they manage your money.
 
 ---
 
-## The SEBI Front-Running Investigation — June 2024
+## The AMC Structure — Unusually Concentrated Ownership
+
+Quant Money Managers Limited is a **private, unlisted company** owned primarily by Sandeep Tandon, who founded the modern Quant AMC after acquiring it in 2008 from near-zero AUM. Unlike JM Financial (60% owned by a listed group with public shareholders and institutional oversight) or PPFAS (founder-led but with professional management layer), Quant is essentially a one-person firm at the ownership level.
 
 ```mermaid
-xychart-beta
-    title "SEBI Regulatory Actions — Shortlisted AMCs (Known Incidents)"
-    x-axis ["PPFAS", "HDFC AMC", "AB SL", "Edelweiss", "HSBC", "JM Fin", "BOI AMC", "Union AMC", "Quant AMC"]
-    y-axis "Severity of Regulatory Action (0=None, 1=Investigation, 2=Penalty)" 0 --> 2
-    bar [0, 0, 0, 0, 0, 0, 0, 0, 1]
-```
-> Quant AMC: SEBI search and seizure (June 2024), active front-running investigation | All others: no known regulatory action
-
-In **June 2024**, SEBI conducted **search and seizure operations** at Quant Mutual Fund's offices in **Mumbai and Hyderabad**. This is not a routine compliance check — SEBI search operations are the equivalent of a regulatory raid. They are reserved for cases where SEBI believes documents or evidence may be at risk of destruction, indicating serious and credible suspicion of wrongdoing.
-
-### What Is Front-Running?
-
-Front-running is when a person with advance knowledge of a pending large institutional order — trades in the same securities before that order executes, to profit from the price movement the large order will cause.
-
-```mermaid
-sequenceDiagram
-    participant FE as Fund Employee
-    participant MKT as Market
-    participant FUND as Quant Fund (Investors)
-    FE->>MKT: Step 1: Buys Stock X at ₹100 (personal account, before fund order)
-    FUND->>MKT: Step 2: Fund's large buy order pushes price to ₹103
-    FE->>MKT: Step 3: Employee sells at ₹103 (personal profit = ₹3/share)
-    Note over FUND: Fund bought at ₹103 instead of ₹100<br/>Investors lost ₹3/share in execution quality
+graph TD
+    A[Sandeep Tandon<br/>Founder & Majority Owner<br/>MD & CEO & CIO] --> B[Quant Money Managers Ltd<br/>Private, Unlisted AMC]
+    B --> C[33 Mutual Fund Schemes<br/>₹94,000 Cr AUM]
+    B --> D[VLRT Quantitative Model<br/>Black Box; Tandon's proprietary system]
+    C --> E[Quant Flexi Cap Fund<br/>₹6,593 Cr AUM ← YOUR MONEY]
+    style A fill:#ff9999
+    style D fill:#ff9999
 ```
 
-**In plain language:** If Quant's fund was about to buy 10 lakh shares of a stock, and an employee bought those shares personally 30 minutes before — the employee profits when the fund's own large order drives the price up. The fund (and its investors) bought at a worse price than they could have. The employee's profit came directly from the investors' execution quality.
+**Why this structure is uniquely risky:**
+- There is **no listed parent** with public shareholders, board oversight, or institutional accountability
+- There is **no SEBI-registered group entity** with reputational skin in the game
+- Tandon simultaneously holds MD, CEO, and CIO roles — owner, operator, and investment decision-maker in one person
+- If Tandon is removed, banned, or incapacitated, **the entire AMC loses its operational brain** — there is no equivalent of JM's Bhandarkar or PP's Raj Mehta to continue
 
-### Why This Is the Most Serious Governance Failure Possible
+This is the most concentrated single-point-of-failure ownership structure of any AMC studied in this project.
 
-Front-running is a **direct breach of fiduciary duty** — the legal and ethical obligation of a fund manager to act in the exclusive interest of the investor. It represents:
+---
 
-1. **Exploitation of trust**: Investors gave Quant their money believing it would be deployed in their interest. Front-running means employees were using that money's pending deployment as a personal trading signal.
+## The SEBI Front-Running Investigation — Full Timeline
 
-2. **Information asymmetry weaponised against investors**: Fund employees have information retail investors cannot access — what large orders are coming. Using that information advantage against the very investors who created it is the clearest possible conflict of interest.
-
-3. **Return impact on investors**: Every front-run trade modestly increased the cost of the fund's execution. The fund bought stocks at slightly worse prices than it should have. This directly reduced NAV growth. Quant's stated historical returns were achieved **despite** front-running, not because of it — investors got less return than they should have.
-
-4. **Systemic risk to AMC trust**: Unlike a poor investment decision (which is the manager's job risk), front-running is an ethical violation. It cannot be explained away by "the model was wrong." It is deliberate exploitation.
-
-### Timeline of the Investigation
+This is not a background regulatory issue. It is an active, ongoing matter involving the current CIO of the fund you are considering investing in.
 
 ```mermaid
 timeline
     title Quant AMC — SEBI Investigation Timeline
-    Jun 2024 : SEBI conducts search and seizure at Quant offices (Mumbai and Hyderabad)
-             : Alleged front-running by employees and associates
-             : News breaks; significant AUM redemptions follow
-    Jul 2024 : SEBI investigation ongoing
-             : Show-cause notices issued to individuals
-             : Quant AMC cooperates with regulators
-    Aug–Dec 2024 : Adjudication proceedings
-                 : Some individuals barred from securities markets
-                 : Fund house continues operating
-    2025–2026 : Case progresses through SEBI adjudication
-              : AMC under enhanced regulatory scrutiny
-              : AUM partially recovered as redemption panic subsided
+    Feb 2024 : CFO Harshal Patel resigns
+             : Resignation dated Feb 19; last day May 19
+             : AMC claims it was pre-planned; timing disputed
+    June 19, 2024 : Day before SEBI raid
+                  : Digital data allegedly deleted from devices
+                  : Documents reportedly missing
+    June 20, 2024 : SEBI conducts search and seizure operation
+                  : Raids at Mumbai HQ and Hyderabad premises
+                  : Sandeep Tandon and HNI Sumana Paruchuri named
+    June 24-28, 2024 : News becomes public
+                     : ₹2,800 Cr net outflows in one week
+                     : Quant denies all wrongdoing
+    July 2024 : Quant writes to investors
+              : Calls SEBI data collection "court-approved search and seizure"
+              : New CFO Shashi Kataria appointed July 1
+    Late 2024 : Tandon and Paruchuri file for SEBI settlement
+    2025 : SEBI high-powered committee reviews settlement
+         : SEBI demands ~₹10 Cr each from Tandon and Paruchuri
+    May 2026 : Settlement pending final acceptance — case not closed
 ```
 
-### What SEBI Found (and What It Means)
+### What Was Allegedly Happening
 
-SEBI's investigation identified that certain individuals — reportedly including persons connected to Quant's dealing desk or investment team — were allegedly placing personal trades in stocks immediately before large fund orders in the same stocks. The timing correlation was flagged through SEBI's market surveillance systems.
+SEBI's investigation centered on alleged **front-running** — where someone with advance knowledge of Quant's upcoming large trades used that information to personally profit by trading ahead of the fund.
 
-**Key implications for current investors:**
+**The specific mechanics alleged:**
+- HNI investor Sumana Paruchuri allegedly received advance information about Quant MF's upcoming buy/sell orders
+- Paruchuri would trade in those same stocks *before* the fund placed its large orders
+- Front-running transactions allegedly totaled **₹70-80 Cr**
+- The connection between Paruchuri and Tandon is what made this a CIO-level issue, not just an HNI exploitation issue
 
-- The AMC was allowed to **continue operating** — Quant Mutual Fund was not shut down. SEBI's response targeted individuals, not the fund house's licence.
-- Individual employees/associates faced **personal bans from securities markets** as adjudication progressed.
-- The VLRT model itself was **not implicated** — the investigation was about execution-stage conduct, not the investment decision-making model.
-- However, the **proprietary model's opacity** creates a structural environment where such conduct is harder to detect and prevent. If no one can audit the model's output and compare it against pre-trade activity, the information advantage is larger.
+**The data deletion allegation — the most alarming detail:**
+On June 19, 2024 — the day *before* SEBI's search and seizure operation — digital data was allegedly deleted from devices belonging to the parties involved, and documents were reportedly missing. If true, this means someone with advance knowledge of the impending raid destroyed evidence. This is categorically more serious than the underlying front-running allegation, as it suggests active obstruction.
 
----
+**The CFO timing:**
+CFO Harshal Patel's resignation (Feb 2024, effective May 2024) came four months before the SEBI raid. The AMC maintained this was pre-planned and unrelated. The timing remains unexplained to investor satisfaction.
 
-## AMC Background — Escorts Mutual Fund Rebranded
+### Settlement: What It Means
 
-```mermaid
-timeline
-    title Quant AMC — Institutional History
-    2008 : Escorts Mutual Fund operating with traditional investment approach
-    2013 : Direct plan regime introduced; Quant Flexi Cap direct plan launched (Jan 2013)
-    2016–2019 : VLRT quantitative model progressively implemented under Sandeep Tandon
-    ~2018 : AMC rebranded from Escorts Mutual Fund to Quant Money Managers Limited
-    2020–2022 : Rapid AUM growth driven by exceptional performance
-    Jun 2024 : SEBI front-running investigation
-    2025–2026 : AUM moderation; regulatory proceedings ongoing
-```
+Tandon and Paruchuri have applied for settlement with SEBI, with SEBI reportedly demanding ~₹10 Cr from each party. A settlement, if accepted, means:
+- The case is formally closed; SEBI does not pursue further legal action
+- It does **not** mean an admission of guilt — settlements are explicitly no-admission agreements
+- It does **not** mean Tandon is cleared or exonerated — only that SEBI accepts monetary payment in lieu of prosecution
 
-Quant Mutual Fund is not a legacy institution with decades of clean governance. It is a relatively recent rebranding and repositioning of Escorts Mutual Fund — an AMC that historically had modest scale and unremarkable performance. The transformation under Sandeep Tandon's VLRT model generated exceptional returns and rapid AUM growth, but the institutional depth, compliance culture, and governance infrastructure did not necessarily scale at the same pace.
+**As of May 2026, the settlement has not been finally accepted.** The case remains active.
 
-**The scale-without-culture risk:** When a small AMC grows its AUM 10–20x in 3–4 years (as Quant did during 2020–2022), the compliance, risk management, and surveillance systems often lag. The human controls that work at ₹5,000 Cr AUM may not prevent conduct issues at ₹80,000 Cr AUM. The 2024 investigation is partially a consequence of this rapid growth outpacing institutional governance.
-
----
-
-## Ownership Structure — Founder-Controlled, Not Aligned
-
-```mermaid
-pie title "AMC Ownership Types — Shortlisted Funds"
-    "Bank subsidiary (HDFC, BOI)" : 22
-    "Conglomerate JV (AB SL)" : 11
-    "Foreign bank subsidiary (HSBC)" : 11
-    "Diversified financial group (JM, Edelweiss)" : 22
-    "Quant (founder-controlled, under probe)" : 11
-    "PPFAS (independent, clean)" : 11
-    "Union (small bank)" : 11
-```
-
-Quant is **founder-controlled** — Sandeep Tandon is both the CIO (investment decision-maker) and the controlling shareholder. This structure has one key advantage and one critical risk:
-
-**Advantage:** Decision-making is fast and unencumbered by committee bureaucracy. The VLRT model can be implemented without seeking board approval for every tactical rotation.
-
-**Critical risk:** When the founder-controller is also the CIO and the compliance culture is founder-driven, the checks and balances that prevent conduct violations are weaker. In well-governed institutions, the compliance function is independent of the investment function. In a founder-controlled AMC where the founder IS the investment head, these functions can blur.
-
-The front-running investigation is consistent with this structural vulnerability — a culture where the investment team's information advantages may not have been appropriately firewalled from personal trading activity.
-
----
-
-## Number of Schemes — Proliferation vs Focus
+### Comparison: Quant vs JM Regulatory Issues
 
 ```mermaid
 xychart-beta
-    title "Number of Schemes — Shortlisted AMCs"
-    x-axis ["PPFAS", "BOI AMC", "Union AMC", "JM Fin", "Quant AMC", "Edelweiss", "HSBC", "AB SL AMC", "HDFC AMC"]
-    y-axis "Number of Schemes (approx.)" 0 --> 60
-    bar [7, 8, 10, 12, 18, 35, 40, 60, 55]
+    title "Regulatory Severity — Current Issues (1=minor, 5=severe)"
+    x-axis ["PPFAS", "HDFC AMC", "JM Financial", "Quant AMC"]
+    y-axis "Severity" 0 --> 5
+    bar [0, 0, 2.5, 5.0]
 ```
 
-Quant runs ~18 schemes — from Flexi Cap to Small Cap, Mid Cap, ELSS, Infrastructure, Commodities, Large Cap, Business Cycle, and more. This is a meaningful proliferation for an AMC that only recently rebranded and grew rapidly.
+| Factor | JM Financial AMC | Quant AMC |
+|---|---|---|
+| Who is involved | Former CEO (not current) | **Current CIO/MD/Founder (Tandon)** |
+| Business area | Debt schemes / capital markets | **Equity schemes — where your money is** |
+| Status | Resolved (settled, paid, closed) | **Active — settlement pending** |
+| Data destruction allegation | None | **Yes — day before SEBI raid** |
+| Evidence of front-running pattern | Isolated | **₹70-80 Cr transaction trail** |
+| Impact on equity unitholders | None | **Direct — your fund's orders were allegedly front-run** |
 
-**The scheme proliferation concern:**
-- More schemes = more opportunities to apply the VLRT model across segments
-- But also = more assets to manage, more dealing desk activity, more front-running surface area
-- The front-running investigation likely spanned multiple schemes, not just Flexi Cap — the conduct happened at the dealing desk level, which serves all funds
-
-Unlike PPFAS (7 schemes, all energy concentrated on FlexiCap), Quant's 18-scheme structure dilutes management attention AND creates more potential for information leakage across funds.
+The distinction is stark. JM's issues were past, resolved, and peripheral to equity operations. Quant's investigation is current, unresolved, and sits at the heart of its equity business.
 
 ---
 
-## AMC Financial Health — Smaller Than It Looks
+## Ownership: Private, Unlisted, Opaque
+
+Because Quant Money Managers Limited is a **private, unlisted company**, there is far less governance transparency than even JM Financial (listed on NSE/BSE with quarterly results and public shareholder scrutiny).
+
+```mermaid
+quadrantChart
+    title AMC Governance Transparency
+    x-axis Low Ownership Transparency --> High Ownership Transparency
+    y-axis Weak External Governance --> Strong External Governance
+    quadrant-1 Well-Governed & Transparent
+    quadrant-2 Externally Governed, Private
+    quadrant-3 Opaque & Weak Governance
+    quadrant-4 Transparent, Self-Governed
+    PPFAS: [0.7, 0.75]
+    HDFC AMC: [0.9, 0.9]
+    JM Financial: [0.75, 0.55]
+    Quant AMC: [0.1, 0.05]
+```
+
+**What this means practically:**
+- No quarterly earnings calls; no public profit/loss data for QMML itself
+- No institutional shareholders with standing to question decisions
+- No listed parent with reputational accountability
+- No independent board with genuine power over the CIO/founder
+- Tandon can maintain his role indefinitely with no external check — unless SEBI formally bars him
+
+---
+
+## Scheme Count — Proliferating Fast
 
 ```mermaid
 xychart-beta
-    title "Est. Annual Fee Revenue from FlexiCap — Shortlisted AMCs (₹ Cr)"
-    x-axis ["PPFAS (0.53%)", "HDFC AMC (0.68%)", "Quant (0.82%)", "AB SL (0.85%)", "HSBC (1.22%)", "JM (0.68%)", "Union (1.00%)", "Edelweiss (0.52%)", "BOI (0.52%)"]
-    y-axis "Est. Annual Fee Revenue from FlexiCap (₹ Cr)" 0 --> 750
-    bar [747, 621, 54, 218, 66, 34, 23, 15, 12]
+    title "Scheme Count — AMC Comparison"
+    x-axis ["PPFAS", "JM Financial", "HDFC AMC", "Quant AMC"]
+    y-axis "Number of Schemes" 0 --> 60
+    bar [6, 16, 55, 33]
 ```
 
-Quant's Flexi Cap fund generates **only ~₹54 Cr/year in fee revenue** from that scheme alone — 14x less than PPFAS's ₹747 Cr. Total AMC AUM across all ~18 schemes is estimated at ₹80,000–90,000 Cr, generating perhaps ₹600–800 Cr total (blended 0.8% ER across schemes). On that broader basis, Quant AMC's total revenue is comparable to PPFAS's — but distributed across 18 products.
+Quant has grown from approximately 10-12 schemes in 2020 to **33 schemes in 2026**. This is a tripling of scheme count in six years, driven by the AUM surge. For context:
 
-**The regulatory cost concern:** SEBI investigations, adjudication proceedings, legal defences, and potential penalties consume AMC management attention and financial resources. A ₹54 Cr/year Flexi Cap revenue base is not a large buffer against the cost and distraction of a multi-year SEBI enforcement proceeding.
+| Period | Quant AUM | Scheme Count |
+|---|---|---|
+| March 2020 | ~₹233 Cr | ~10 |
+| January 2024 | ~₹50,000 Cr | ~26 |
+| June 2024 (pre-probe) | ~₹80,470 Cr | ~26 |
+| June 2025 | ~₹93,599 Cr | ~29 |
+| May 2026 | ~₹94,000 Cr | 33 |
 
----
+The recent launch of a **Specialised Investment Fund (SIF) — Hybrid Long-Short** (September 2025) is particularly notable: Quant is now entering complex, derivatives-heavy alternative fund structures while its CIO is under a front-running investigation. This is not the behavior of a management team exercising restraint in a period of regulatory scrutiny.
 
-## The Front-Running Impact on Historical Returns — An Uncomfortable Analysis
+### The 20-Equity-Schemes Problem
 
-This section addresses a question most investors don't ask: **Did front-running inflate or deflate Quant's reported returns?**
-
-The answer is counterintuitive: **Front-running by employees modestly reduced Quant's reported returns.**
-
-Here's why:
-
-| Without front-running | With front-running |
-|-----------------------|--------------------|
-| Fund places buy order; executes at market price | Employee buys first; fund's order pushes price up; fund executes at a higher price |
-| Fund's NAV reflects best possible execution | Fund's NAV reflects slightly worse execution |
-| All alpha stays with investors | A small portion of potential alpha is captured by front-runners, not investors |
-
-Quant's 20.87% 10Y CAGR was generated **despite** employees skimming from execution quality. The VLRT model's alpha is real — but it was partially stolen from investor returns in the process. This is a damning finding: the people who created the model's value also captured some of it illegally, at investors' expense.
-
-**The forward-looking question:** With the investigation ongoing and individuals barred from markets, is the conduct likely to continue? Probably not — SEBI's action creates strong deterrents. But the damage to institutional trust is real regardless of future behaviour.
+Quant operates **20+ equity schemes** — most run by Sandeep Tandon alone using the VLRT model. This creates:
+- Identical concentrated positions replicated across 20 mandates (the Adani Group 24.56% was visible across multiple funds)
+- The VLRT model's buy/sell signals triggering simultaneous large orders across all schemes — amplifying the very behavior that attracted SEBI's front-running suspicion
+- A single model failure affecting every scheme simultaneously, not just one
 
 ---
 
-## Investor Communication — Limited and Opaque
+## Investor-First Culture — Near Zero
 
 ```mermaid
 xychart-beta
-    title "Investor Communication Quality — Studied Funds (Subjective, 1–5)"
-    x-axis ["Quant", "HDFC", "PP"]
-    y-axis "Communication Quality" 0 --> 5
-    bar [1.5, 3, 5]
+    title "Investor-First Culture Score (out of 5)"
+    x-axis ["PPFAS", "HDFC AMC", "JM Financial", "Quant AMC"]
+    y-axis "Score" 0 --> 5
+    bar [5.0, 3.0, 2.0, 0.5]
 ```
 
-| AMC | Communication Style | Transparency |
-|-----|-------------------|--------------|
-| **PP (PPFAS)** | Quarterly letters, explains every major decision, acknowledges underperformance directly | **Excellent** |
-| HDFC AMC | Regular factsheets, some manager commentary | **Adequate** |
-| **Quant** | Factsheets available; VLRT model unexplained; no equivalent to PP's investor letters | **Poor** |
+| Investor-First Metric | PPFAS | JM Financial | Quant |
+|---|---|---|---|
+| Quarterly investor letters | Yes | No | **No** |
+| Skin-in-game disclosed | Yes | No | **No** |
+| Voluntary ER reduction | Yes | No | **No** |
+| Portfolio rationale explained | Yes (monthly) | Occasional | **Never** |
+| Transparent about SEBI probe | N/A | N/A | **No — denied for weeks** |
+| Admitted mistakes publicly | Yes | Occasionally | **No** |
+| Scheme launches restrained in crisis | N/A | N/A | **No — launched SIF during probe** |
 
-Quant's investor communication is among the weakest in the category. The VLRT model — the core of every investment decision — is proprietary and never explained to investors. You receive:
-- Monthly factsheets with portfolio holdings
-- Standard regulatory disclosures
-- No narrative on why specific positions were taken
-- No explanation of model signals or regime-detection logic
-
-When the June 2024 front-running investigation broke, Quant's public communication was minimal. Investors learned about the SEBI search from news coverage, not from AMC disclosure. Compare this to PPFAS's 2022 international subscription suspension — where investors received a detailed letter explaining the RBI constraint before external media even covered it.
-
-An AMC that doesn't explain its investment model cannot be held accountable when returns are poor. An AMC that communicates minimally during a regulatory crisis is one where investors cannot make informed decisions.
+**The probe transparency failure:**
+Quant Mutual Fund's initial response to the SEBI investigation was silence, then denial. The fund "finally came clean on inquiries from SEBI" only under sustained media pressure (Moneylife headline). Quant's investor communication described SEBI's court-approved search as merely "data collection" — minimizing language that obscures what actually happened. Compare this with PP's Rajeev Thakkar, who addresses underperformance transparently in quarterly letters. An AMC that cannot be honest about a SEBI raid cannot be trusted to communicate honestly in more routine circumstances.
 
 ---
 
-## The Quant vs PPFAS Governance Contrast
-
-This comparison is the most important framing for Module 6:
-
-| Dimension | PPFAS | Quant |
-|-----------|-------|-------|
-| Regulatory history | Zero actions in 13 years | Active SEBI investigation (2024) |
-| Nature of conduct | None to report | Alleged front-running — employees exploited investors |
-| Investor communication | Quarterly letters, full transparency | Minimal, model never explained |
-| Model transparency | All decisions explained in writing | Proprietary black box |
-| Ownership governance | Independent board, professional management | Founder-controlled, CIO = controlling shareholder |
-| Cultural tone at the top | Investor-first, documented | Ambiguous — compliance culture under scrutiny |
-| AMC age and depth | 13 years, institutional depth | Recent rebranding, rapid growth, governance lagging |
-
-The contrast is direct. You are choosing between an AMC with the cleanest governance record in the study and one with the worst. Both are founder-controlled boutiques. But the similarity ends there.
-
----
-
-## Will Quant AMC Survive? — Operational Risk Assessment
-
-A legitimate question for 10-year SIP investors: Is there a risk of AMC closure, merger, or forced sale?
+## AUM Trajectory — Volatile and Probe-Sensitive
 
 ```mermaid
 xychart-beta
-    title "AMC Closure/Merger Risk — Shortlisted Funds (Subjective, 1=High Risk, 5=Very Stable)"
-    x-axis ["Quant", "Union", "BOI", "JM", "Edelweiss", "HSBC", "AB SL", "PP", "HDFC"]
-    y-axis "Stability Score" 0 --> 5
-    bar [2.5, 3, 3, 3.5, 3.5, 3.5, 4, 4.5, 5]
+    title "Quant AMC — AUM Journey (₹ Cr)"
+    x-axis ["Mar 2020", "Jan 2024", "Jun 2024 (pre-probe)", "Jul 2024 (post-probe)", "Jun 2025", "May 2026"]
+    y-axis "AUM (₹ Crore)" 0 --> 100000
+    bar [233, 50000, 80470, 77670, 93599, 94000]
+    line [233, 50000, 80470, 77670, 93599, 94000]
+```
+> AUM grew 345x from March 2020 to June 2024; dipped ~3,000 Cr post-probe; recovered by mid-2025
+
+The AUM recovery is notable — most investors stayed after the probe became public. But the **₹2,800 Cr outflow in a single week** (June 2024) illustrates a structural risk: Quant's AUM is built on retail sentiment around extraordinary performance. If performance falters (as it has in 2024-25 with all funds showing weak 1Y returns) *and* the investigation concludes badly, the redemption pressure could be severe.
+
+A forced-selling scenario — where redemptions require large positions to be liquidated — in a fund with 71.40% top-10 concentration and 24.56% Adani Group exposure is not a theoretical risk. It's a specific, calculable stress scenario.
+
+---
+
+## Scoring Breakdown
+
+| Sub-dimension | Weight | Score | Rationale |
+|---|---|---|---|
+| Regulatory cleanliness | 25% | 0.5/5 | Active SEBI front-running investigation on current CIO; data deletion allegation; settlement pending but not closed |
+| Ownership independence | 15% | 1.5/5 | Fully independent (no bank parent) — good; but private, unlisted, single-owner — extreme opacity |
+| AMC focus & scheme discipline | 15% | 2.0/5 | 33 schemes and growing; 20 equity schemes creating identical concentrated positions; SIF launched mid-probe |
+| Financial stability | 15% | 3.5/5 | ₹94,000 Cr AUM generates strong fee revenue; financially self-sustaining; but probe-related redemption risk |
+| Investor-first culture | 20% | 0.5/5 | No letters, no transparency, minimized SEBI probe, denied wrongdoing publicly, launched new schemes during investigation |
+| Investor communication quality | 10% | 1.0/5 | Rare media appearances; no portfolio rationale; actively misleading on SEBI probe during investigation |
+
+**Module 6 Score: 1.25 / 5**
+
+---
+
+## Points For and Against
+
+### Points For — AMC Trustworthiness
+
+1. **Financially self-sustaining** — ₹94,000 Cr AUM at 0.82% ER generates ~₹770 Cr/year fee revenue; no parent subsidy required; operationally stable
+2. **No bank/conglomerate parent** — no conflict of interest from needing to manage a distribution empire; pure-play AMC
+3. **Extraordinary AUM growth from zero** — 345x growth from ₹233 Cr (2020) to ₹94,000 Cr (2026) validates genuine market demand
+4. **Settlement process indicates resolution pathway** — if settlement is accepted, the formal case closes; markets have largely priced this in given AUM recovery
+
+### Points Against — AMC Trustworthiness
+
+1. **Active SEBI investigation on current CIO** — Tandon personally is under front-running suspicion; the person making your investment decisions is under regulatory scrutiny
+2. **Data deletion alleged the day before SEBI raid** — if true, this is evidence obstruction, which is categorically more serious than the underlying front-running
+3. **Private, unlisted, single-owner structure** — no external governance check; no public shareholders; no institutional board accountability
+4. **CFO resigned 4 months before probe became public** — timing never satisfactorily explained; raises questions about internal awareness of the investigation
+5. **Minimized and denied probe initially** — investor communication was actively misleading during the investigation; erodes credibility for future communications
+6. **33 schemes and proliferating** — including complex SIF products launched *during* an active investigation; management judgment appears to prioritize AUM growth over governance
+7. **Identical positions across 20 equity schemes** — same VLRT signals trigger simultaneous trades; amplifies market impact and front-running opportunity
+8. **Settlement ≠ exoneration** — a paid settlement closes the legal case but does not answer the underlying question: was Tandon aware of Paruchuri's front-running?
+9. **No succession, no team, no backup** — if Tandon is formally barred or steps down, the AMC has no operational continuity
+
+---
+
+## AMC Comparison — All Studied Funds
+
+```mermaid
+xychart-beta
+    title "Module 6 Score — AMC Trustworthiness (out of 5)"
+    x-axis ["PPFAS", "HDFC AMC", "JM Financial", "Quant AMC"]
+    y-axis "Score" 0 --> 5
+    bar [4.5, 3.0, 2.85, 1.25]
 ```
 
-**Assessment:** Quant AMC is unlikely to be shut down from the SEBI probe — SEBI's response targeted individuals, not the fund house licence. However, several tail risks exist:
-
-1. **Further SEBI escalation:** If the investigation reveals systemic institutional involvement (not just rogue employees), SEBI could impose restrictions on new subscriptions or require management changes — disrupting the fund
-2. **AUM attrition:** Sophisticated institutional investors (pension funds, insurance companies) may reduce or exit Quant allocations due to governance concerns — reducing revenue and operational stability
-3. **Talent risk:** Senior investment team members barred from markets or choosing to leave following the regulatory cloud — model continuity risk
-4. **Reputation contagion:** If the VLRT model's performance weakens simultaneously with governance issues, retail investor redemptions could accelerate — creating a negative spiral
-
-**Current status:** As of May 2026, Quant continues operating normally. AUM has partially recovered from post-investigation redemptions. The fund house is managing through the regulatory proceedings. Near-term closure is not the base case — but 10-year SIP investors must price in this governance risk over their full investment horizon.
+| Rank | AMC | Score | Key Factor |
+|---|---|---|---|
+| 1 | PPFAS | 4.5/5 | Zero incidents in 13 years; investor-first culture; quarterly letters |
+| 2 | HDFC AMC | 3.0/5 | Large, stable, clean record; commercially oriented |
+| 3 | JM Financial | 2.85/5 | 3 incidents (debt/past); equity team clean; no transparency infrastructure |
+| 4 | **Quant AMC** | **1.25/5** | **Active SEBI probe on current CIO; data deletion alleged; opaque single-owner structure; zero investor communication** |
 
 ---
 
-## Points For — Module 6
+## Module 6 Final Score: 1.25 / 5
 
-1. **Fund house allowed to continue operating** — SEBI's response targeted individuals, not the AMC licence; investors' money is not at risk of being frozen or forcibly redeemed
-2. **VLRT model not implicated** — the investigation focused on execution-stage front-running, not on the investment decision-making model itself; the alpha-generation engine appears separate from the conduct issue
-3. **Founded by domain expert** — Sandeep Tandon built genuinely novel quantitative infrastructure for Indian markets; the AMC's investment approach has real intellectual differentiation
-4. **Independent ownership (theoretical advantage)** — no bank parent pressuring for cross-selling; investment decisions not constrained by conglomerate politics
-5. **Large total AMC AUM (~₹80,000–90,000 Cr)** — not a financially marginal operation; revenue base supports continued operations
-
----
-
-## Points Against — Module 6
-
-1. **Active SEBI front-running investigation (2024)** — the most serious regulatory event in this entire study; search and seizure operations are reserved for credible, serious suspected violations; no other shortlisted fund faces anything comparable
-2. **Employees allegedly exploited investors' trust** — front-running is not a compliance paperwork violation; it is direct exploitation of investor assets for personal gain; the fiduciary relationship was breached
-3. **Historical returns were partly stolen from investors** — front-running reduced Quant's execution quality; the 20.87% 10Y CAGR was achieved despite conduct that made returns lower than they should have been; investors deserved more
-4. **Proprietary model opacity amplifies conduct risk** — the VLRT model's black-box nature makes it harder to detect, prevent, or audit front-running; the information asymmetry available to Quant employees is larger than at model-transparent funds
-5. **Minimal investor communication during the crisis** — investors learned about the probe from news, not from AMC disclosure; the opposite of PPFAS's transparency standard
-6. **Founder-CIO concentration of control** — Sandeep Tandon is simultaneously the investment decision-maker, controlling shareholder, and public face; checks and balances between investment and compliance are structurally weaker
-7. **Rapid growth without proportionate governance scaling** — AUM grew 10–20x in 3–4 years; compliance systems, surveillance, and human controls did not scale at the same pace; the investigation is consistent with this governance lag
-8. **Reputational damage to institutional allocators** — pension funds and insurance companies managing fiduciary money cannot allocate to AMCs under active regulatory investigation; loss of institutional capital reduces fund stability and research resource depth
-9. **No equivalent to PPFAS's investor-first documented culture** — no quarterly letters, no acknowledgment of errors, no public discussion of model risks; a culture of transparency is the primary deterrent to conduct violations; Quant's opacity is its greatest vulnerability on this dimension
-
----
-
-## Module 6 Scorecard
-
-| Sub-dimension | Score (1–5) | Reasoning |
-|--------------|------------|-----------|
-| Regulatory cleanliness | **1** | Active SEBI investigation; search and seizure; front-running by employees — worst outcome possible |
-| Investor protection culture | **1** | Employees allegedly traded against investors; minimal crisis communication; fiduciary breach is the opposite of investor-first |
-| AMC transparency | **1** | Proprietary model never explained; no investor letters; minimal communication during SEBI probe |
-| Ownership and governance | **2** | Independent of bank/conglomerate (marginal positive); but founder-controlled with weak separation of investment and compliance |
-| Institutional depth and stability | **2** | Operates at scale (~₹80,000 Cr total AUM); fund will survive the investigation; but talent risk and reputational damage are real |
-| AMC focus and alignment | **2** | 18 schemes spread management attention; flexi cap is not the AMC's only or dominant fund; model applied opportunistically across schemes |
-| **Module 6 Overall** | **1 / 5** | The SEBI front-running probe is disqualifying for a governance-conscious investor; no amount of return data compensates for an active investigation into conduct that directly exploited unitholders |
-
----
-
-## The One-Line Verdict
-
-Quant Money Managers Limited has the worst AMC governance profile in the shortlisted 9 — an active SEBI investigation for front-running that represents a direct breach of fiduciary duty, compounded by model opacity, weak investor communication, and governance structures that failed to prevent the conduct in the first place.
+> Quant Money Managers Limited is the most financially successful AMC built from scratch in recent Indian mutual fund history — and simultaneously the least trustworthy institution in this shortlist. The investigation involves the current investment decision-maker, not a former employee. The alleged data deletion suggests awareness of wrongdoing, not innocent oversight. The private, unlisted, single-owner structure means there is no external governance mechanism to course-correct if management judgment fails. And an AMC that grows its scheme count and launches complex products in the middle of an active SEBI investigation has revealed its priorities clearly. The financial model works. The governance model does not.
