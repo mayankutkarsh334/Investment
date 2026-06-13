@@ -137,7 +137,7 @@ The expense ratio for Bandhan Small Cap Fund Direct Growth is reported inconsist
 | 3Y CAGR | 30.95% | ~30.5–31.0% | ~30.9% | — | **Confirmed** |
 | 5Y CAGR | 23.52% | ~23.0–23.5% | ~23.5% | — | **Confirmed** |
 | Since Inception (6.25Y) | ~30.5% | ~30.5% | — | — | **Confirmed** |
-| Max Drawdown | 24.34% | Verified (see Max DD section) | — | — | **Confirmed — resolved paradox** |
+| Max Drawdown | 24.34% | Verified — NAV-level (MFAPI) | — | — | **Confirmed — but 2021–22, small AUM (see Max DD section)** |
 | Alpha (3Y) | 9.43 | — | — | — | TT source; cross-verify in M2 |
 | Expense Ratio | 0.34% | — | 0.80% | **0.80%** | ⚠️ **Severe discrepancy — see ER Anomaly** |
 | Cash % | 13.26% | — | — | — | TT source; verify in M3 |
@@ -376,17 +376,17 @@ Three interlocking factors:
 
 **This is NOT the same as saying the fund managed risk better than peers during COVID.** There was no active risk management decision by Bhaskar — the portfolio simply had less market exposure because it was newly launched. Invesco's -36.10% COVID crash (16 months old in March 2020, fully deployed) is a better reference for what a mature Bandhan portfolio would have experienced.
 
-**Consequence for Max Drawdown (24.34%):** The 24.34% max drawdown in the Tickertape screener is NOT from COVID — it is from the **2024–2025 small cap correction** (October 2024 to February 2025). By that time, the fund was ₹25,000+ Cr with full SC deployment. The 24.34% drawdown is a genuine, at-scale test of the portfolio — and it is the lowest max drawdown of all 8 shortlisted SC funds at full scale. This reflects Gunwani's portfolio construction quality in limiting downside.
+**Consequence for Max Drawdown (24.34%):** The 24.34% max drawdown in the Tickertape screener is NOT from COVID — but it is also **not** from the 2024–25 correction, as originally hypothesised. Module 2's NAV-level computation (MFAPI scheme 147946) pinpoints the true maximum drawdown to the **2021–22 small cap correction**: peak ₹24.86 on **18-Oct-2021**, trough ₹18.81 on **20-Jun-2022** (−24.34%, 245 days down, 604 days peak-to-recovery). The 2024–25 correction was only **−5.92%** at the NAV level — mild, because the *category* correction was mild. Critically, the 24.34% drawdown occurred when the fund was **young and small** (NAV in the ₹18–25 range, AUM a fraction of today's ₹25,346 Cr) — **not at scale**. It is therefore *not* proof of at-scale downside protection; the fund has never met a severe bear at its current size. See Module 2 for the full reconciliation.
 
 ```mermaid
 xychart-beta
-    title "Max Drawdown (At Scale) — All 8 Shortlisted SC Funds"
+    title "Max Drawdown — All 8 Shortlisted SC Funds"
     x-axis ["Sundaram", "DSP", "HSBC", "Union", "Invesco", "Edelweiss", "BOI SC", "Bandhan"]
     y-axis "Max Drawdown %" -60 --> 0
     bar [-57.06, -49.06, -52.45, -44.71, -37.66, -37.09, -32.37, -24.34]
 ```
 
-**Bandhan's 24.34% max drawdown at ₹25,000 Cr scale is genuinely the best in the shortlist — not an artifact.** The COVID -18.1% was an artifact; the 2024-25 -24.34% is real evidence of downside protection capability.
+**Bandhan's 24.34% max drawdown is the lowest of the 8 shortlisted funds — but it is NOT an "at-scale" achievement.** The COVID −18.1% was an inception artifact, and the −24.34% was the 2021–22 bear, suffered when the fund was small. Because the fund has never drawn down hard at its current ₹25,346 Cr size, the low max drawdown should be read as *partly untested* rather than as proven downside protection. Module 2 develops this "untested at scale" caveat in full.
 
 ---
 
@@ -747,7 +747,7 @@ xychart-beta
 | Since Inception CAGR | **~30.5%** (6.25Y) | 20.85% (13.4Y) | 22.76% (7.55Y) | ~18% (20Y) | 25.93% (5.9Y) |
 | Inception-Adj. CAGR | **~13.5%** | **20.85%** (genuine) | ~13.6% | ~18% (genuine) | ~13% |
 | Worst Calendar Year | -4.59% (2022) | -25.12% (2018) | -1.57% (2025) | -6.29% (2022) | +0.77% (2022) |
-| Max Drawdown | **24.34%** (at scale) | 49.06% | 37.66% | -31% | -23.73% |
+| Max Drawdown | **24.34%** (2021–22, small AUM) | 49.06% | 37.66% | -31% | -23.73% |
 | Alpha (3Y) | **9.43** | 5.73 | 5.60 | -0.16 | +7.78 |
 | Sharpe (AK/MS) | **1.19** | 0.74 | 0.96 | — | 1.16 |
 | Portfolio PE | **18.53** | 29.54 | 43.43 | 15.70 | 23.14 |
@@ -770,7 +770,7 @@ xychart-beta
 
 4. **#1 Information Ratio (2.01)** — best risk-adjusted consistency in the shortlist; generating 2.01× the tracking error in active return is exceptional.
 
-5. **#1 Max Drawdown (24.34% at scale)** — lowest downside exposure at full AUM among all 8 shortlisted funds; the resolved paradox shows this is genuine portfolio protection, not an artifact.
+5. **#1 Max Drawdown (24.34%, lowest of 8)** — the smallest peak-to-trough fall in the shortlist, but suffered during the 2021–22 bear when the fund was young and small, *not* at today's ₹25,346 Cr scale. It is the lowest number in the group, yet it remains an untested-at-scale figure rather than proven downside protection (see Module 2).
 
 6. **Lowest PE in shortlist (18.53 vs category avg 31.60)** — the fund trades at 41% discount to peers, suggesting Gunwani's value orientation creates a valuation margin of safety. Cash-adjusted equity PE ≈ 21.4 — still the lowest.
 
