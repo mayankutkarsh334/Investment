@@ -75,12 +75,37 @@ All CSV files used for screening are in `Mutual Fund/TickerTape Data/` — expor
 
 | Module | Weight | Status (all funds) |
 |--------|--------|--------------------|
-| 1 — Returns Consistency | 25% | Not started |
-| 2 — Risk Profile | 20% | Not started |
-| 3 — Portfolio DNA | 15% | Not started |
-| 4 — Cost & AUM Impact | 20% | Not started |
-| 5 — Fund Manager Quality | 15% | Not started |
-| 6 — AMC Trustworthiness | 5% | Not started |
+| 1 — Returns Consistency | 25% | 6 funds complete |
+| 2 — Risk Profile | 20% | 6 funds complete |
+| 3 — Portfolio DNA | 15% | 6 funds complete |
+| 4 — Cost & AUM Impact | 20% | 6 funds complete |
+| 5 — Fund Manager Quality | 15% | 6 funds complete |
+| 6 — AMC Trustworthiness | 5% | 6 funds complete |
+
+---
+
+## Deep Study Progress
+
+### Shortlisted Funds (8)
+
+| Rank | Fund | Score | Status |
+|------|------|-------|--------|
+| 1 | **DSP Small Cap** | **4.00 / 5** | ✅ Complete |
+| 2 | **Bank of India Small Cap** | **3.66 / 5** | ✅ Complete |
+| 3 | **HSBC Small Cap** | **3.37 / 5** | ✅ Complete |
+| 4 | **Bandhan Small Cap** | **3.33 / 5** | ✅ Complete |
+| 5 | **Invesco India Smallcap** | **3.29 / 5** | ✅ Complete |
+| — | Edelweiss Small Cap | Pending | Not started |
+| — | Union Small Cap | Pending | Not started |
+| — | Sundaram Small Cap | Pending | Not started |
+
+### Out-of-Shortlist Studies (instructive deep-dives)
+
+| Fund | Score | Stage-1 Elimination Reason | Status |
+|------|-------|---------------------------|--------|
+| **quant Small Cap** | **2.86 / 5** | AUM ₹31,774 Cr (>₹30,000 Cr cap) | ✅ Complete |
+
+> **quant SC note:** Studied as an instructive case — highest-octane raw returns in the category (VLRT era 5Y CAGR +36%) but confirmed-eliminated on AUM, mandate drift, governance, and data-quality pattern. Score confirms Stage-1 decision: no fund should buy raw alpha at this cost.
 
 ---
 
@@ -98,6 +123,12 @@ All CSV files used for screening are in `Mutual Fund/TickerTape Data/` — expor
 | 8 | **Sundaram Small Cap** | Worst MaxDD (57.06%) in shortlist; 10Y CAGR lowest (16.10%). Likely lower-ranked but study confirms or refutes. |
 
 ---
+
+## Comparative Analysis & Strategy
+
+| Document | Purpose |
+|----------|---------|
+| [decision_tree.md](decision_tree.md) | **Cross-fund comparative analysis + defined ₹20K/month deployment strategy** — scorecard, deep-metric grid, hard filters, decision tree, portfolio construction (recommended: DSP 60% + BOI 40%) |
 
 ## Screening Documents
 
