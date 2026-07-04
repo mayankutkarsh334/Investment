@@ -91,15 +91,19 @@ Data pulled **directly from the Tickertape screener API** on **July 3, 2026** (D
 
 | Rank | Fund | Score | Status |
 |------|------|-------|--------|
-| 1 | **Nippon India Growth Mid Cap** | **≈3.96 / 5** | ✅ **Complete** (6 modules + README) — the reference frame; provisional #2 across all four category studies |
-| — | Invesco India Midcap | Pending | Next (study #2 — the screening leader) |
-| — | HSBC Midcap | Pending | Not started (Sharpe-anomaly already half-resolved in Nippon M2: a window artifact) |
+| 1 | **Invesco India Midcap** | **≈3.97 / 5** | ✅ **Complete** (6 modules + README) — the screening leader; **dead heat with Nippon** |
+| 2 | **Nippon India Growth Mid Cap** | **≈3.96 / 5** | ✅ **Complete** (6 modules + README) — the reference frame |
+| — | HSBC Midcap | Pending | Next (study #3 — Sharpe-anomaly already half-resolved in Nippon M2: a window artifact) |
 | — | Edelweiss Mid Cap | Pending | Not started |
 | — | Mahindra Manulife Mid Cap | Pending | Not started |
 | — | ICICI Pru Midcap | Pending | Not started |
 | — | Sundaram Mid Cap | Pending | Not started |
 
 > **Nippon in one line:** a superb machine on a clock — +2.1%/yr defensive alpha over the investable index for 13.4 years, #1 risk-adjusted metrics of the shortlist at 3–10× peer size, active share 54.1% — discounted for an ungated ₹673 Cr/month AUM trajectory that breaches this study's own ₹50K Cr cap within months, a thrice-changed manager seat, and a live AMC settlement. See [funds/nippon/README.md](funds/nippon/README.md).
+
+> **Invesco in one line:** the best engine on the riskiest chassis — #1 shortlist returns at both horizons, the largest (but episodic, manager-coupled) index alpha, the highest active share studied (79.5%), the best SIP record and cost-capacity position — keyed entirely to one 2.6-year solo manager (Khemani; co-manager Ganatra left for HDFC twelve weeks post-IIHL) running a PE-49 momentum book inside a 2.4/5 AMC. See [funds/invesco/README.md](funds/invesco/README.md).
+
+> **The head-to-head (≈3.97 vs ≈3.96):** a statistical dead heat with opposite shapes — Invesco wins the fund-level modules (M1 returns, M4 cost/runway), Nippon wins the institution-level ones (M2 risk, M3, M5 manager, M6 AMC). R² 90% between them: the midcap slot is single-occupancy, and the decision tree must choose between Nippon's capacity clock and Invesco's key-person trigger.
 
 **Out-of-shortlist instructive candidates:** HDFC Mid Cap (the ₹97,350 Cr capacity case) · Motilal Oswal Midcap (the momentum-blowup case)
 
