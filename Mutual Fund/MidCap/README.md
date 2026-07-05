@@ -93,8 +93,8 @@ Data pulled **directly from the Tickertape screener API** on **July 3, 2026** (D
 |------|------|-------|--------|
 | 1 | **Invesco India Midcap** | **≈3.97 / 5** | ✅ **Complete** (6 modules + README) — the screening leader; **dead heat with Nippon** |
 | 2 | **Nippon India Growth Mid Cap** | **≈3.96 / 5** | ✅ **Complete** (6 modules + README) — the reference frame |
-| — | HSBC Midcap | Pending | Next (study #3 — Sharpe-anomaly already half-resolved in Nippon M2: a window artifact) |
-| — | Edelweiss Mid Cap | Pending | Not started |
+| 3 | **HSBC Midcap** | **≈3.49 / 5** | ✅ **Complete** (6 modules + README) — the recency ramp; **clear #3**, dominated by both on M1/M2 |
+| — | Edelweiss Mid Cap | Pending | Next (study #4) |
 | — | Mahindra Manulife Mid Cap | Pending | Not started |
 | — | ICICI Pru Midcap | Pending | Not started |
 | — | Sundaram Mid Cap | Pending | Not started |
@@ -104,6 +104,8 @@ Data pulled **directly from the Tickertape screener API** on **July 3, 2026** (D
 > **Invesco in one line:** the best engine on the riskiest chassis — #1 shortlist returns at both horizons, the largest (but episodic, manager-coupled) index alpha, the highest active share studied (79.5%), the best SIP record and cost-capacity position — keyed entirely to one 2.6-year solo manager (Khemani; co-manager Ganatra left for HDFC twelve weeks post-IIHL) running a PE-49 momentum book inside a 2.4/5 AMC. See [funds/invesco/README.md](funds/invesco/README.md).
 
 > **The head-to-head (≈3.97 vs ≈3.96):** a statistical dead heat with opposite shapes — Invesco wins the fund-level modules (M1 returns, M4 cost/runway), Nippon wins the institution-level ones (M2 risk, M3, M5 manager, M6 AMC). R² 90% between them: the midcap slot is single-occupancy, and the decision tree must choose between Nippon's capacity clock and Invesco's key-person trigger.
+
+> **HSBC in one line:** the recency ramp — the entire trailing crown (3Y/1Y #1, Sharpe 0.848) is a 2024+2026 spike on a record that **fails the matched-index test** (−0.22%/yr net alpha over the buyable index fund), carries the trio's worst risk-adjusted metrics (Sharpe 6th/7, Calmar below the index fund, deepest drawdown), hides a ~0.76% true cost behind a cheap ER (~110% turnover, the study's highest), and spans **four AMCs and five teams**. Rescued from the low-3s by a distinctive active portfolio, the best (unlimited) capacity of the trio — because "the market isn't buying it" — and a manager (Cheenu Gupta) verifiably **better than the fund** (a good 2020 COVID crisis record the weak legacy predates). A **clear #3**, dominated by both peers on the two heaviest modules; R² 91% to each. See [funds/hsbc/README.md](funds/hsbc/README.md).
 
 **Out-of-shortlist instructive candidates:** HDFC Mid Cap (the ₹97,350 Cr capacity case) · Motilal Oswal Midcap (the momentum-blowup case)
 
