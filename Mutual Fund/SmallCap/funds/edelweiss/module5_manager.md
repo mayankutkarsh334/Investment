@@ -4,11 +4,13 @@
 
 ---
 
-## Module 5 Score: ~3.4 / 5 — A Deep, Well-Credentialed Team, Capped by a Manager-Level SEBI Mark and a Thin-Alpha Record
+## Module 5 Score: ~3.5 / 5 (revised) — A Deep, Well-Credentialed Team, Capped by a Manager-Level SEBI Mark and a Defensively-Earned Record
+
+> **⚠ Retrofit correction (Jul 6, 2026 — from the MidCap study):** This module's "thin-alpha / defensive-not-alpha" characterization was based on the beta-adjusted **information ratio (IR ≈ 0)**. The later MidCap study computed Trideep's alpha the study-canonical way — vs the **matched investable Nifty Smallcap-250 index fund** (the "why not the index fund?" benchmark) — and found **+2.61%/yr genuine outperformance** over his Oct-2021→Jul-2026 tenure, earned **defensively** (up-capture 84 / down-capture 67). The same computation across all three funds he runs (**+3.18% FlexiCap, +2.92% MidCap, +2.61% SmallCap**) shows a **consistent, protection-tilted index-beating record, not "thin alpha."** The correct characterization is **genuine-but-defensively-earned alpha** (positive vs the buyable index; modest IR) — not "flat excess return." **Score revised 3.4 → 3.5** (the SEBI-mark and departed-Patwardhan caps still stand; the "thin-alpha" cap is downgraded to a "defensive-style" note). Where the scorecard rows and comparative tables below predate this correction and read "3.4 / thin alpha," read **"3.5 / defensively-earned alpha."** *(The fund's overall SmallCap score & README should be nudged correspondingly — flagged, not yet applied.)*
 
 Module 5 is where Edelweiss's manager story diverges most sharply — and most favourably — from BOI's. Where BOI Small Cap is the study's cautionary **"carousel"** (both architects departed, one *to Edelweiss*), **Edelweiss is the mirror image: a net *recipient* of small-cap talent.** It lost its launch manager (Harshad Patwardhan, who built the explosive 2020–21 years and left to become Union MF's CIO) but kept a **proven CIO (Trideep Bhattacharya, ~4.5 years on the fund, Edelweiss Flexi Cap Rank #4)** and, in October 2024, **gained BOI Small Cap's own architect — Dhruv Bhatia.** The result is the **best-rounded credential mix of any studied team**: CFA/global-CIO oversight (Trideep) + hands-on small-cap pedigree (Bhatia) + CA forensics (Raj Koradia), on the deepest AMC backing of the deeply-studied funds (Module 4).
 
-Three things cap the score at ~3.4 rather than higher: **(1) a personal SEBI penalty against lead manager Trideep Bhattacharya** (₹4 lakh, for a focused-fund 30-stock-limit breach) — a direct mark that DSP's Sambre and HSBC's Manghat do not carry; **(2) what Trideep has actually demonstrated *on this fund* is downside protection, not alpha** — the thin-IR era (Modules 1–2) is his; and **(3) the fund's explosive early years (2020–21) belong to the departed Patwardhan.** The deep team lifts Edelweiss a notch above BOI/HSBC (3.3); the SEBI mark and thin-alpha record keep it below DSP (3.9). Net: ~3.4, level with Union.
+Three things cap the score at ~3.5 rather than higher: **(1) a personal SEBI penalty against lead manager Trideep Bhattacharya** (₹4 lakh, for a focused-fund 30-stock-limit breach) — a direct mark that DSP's Sambre and HSBC's Manghat do not carry; **(2) what Trideep has demonstrated *on this fund* is genuine-but-defensively-earned alpha** — positive vs the buyable Smallcap-250 index fund (+2.61%/yr, up-84/down-67) but with a modest information ratio (Modules 1–2), i.e. protection-led rather than high-IR differentiated selection; and **(3) the fund's explosive early years (2020–21) belong to the departed Patwardhan.** The deep team lifts Edelweiss above BOI/HSBC (3.3); the SEBI mark and defensive-style record keep it below DSP (3.9). Net: **~3.5** (revised from 3.4 post-retrofit), level-to-just-above Union.
 
 ---
 
@@ -16,7 +18,7 @@ Three things cap the score at ~3.4 rather than higher: **(1) a personal SEBI pen
 
 Mutual-fund returns are the output; the manager is the machine. Module 5 asks: who runs this machine, why trust them with ₹20,000/month for a decade, and what happens if they leave?
 
-For Edelweiss the answers are **structurally more reassuring than BOI's but more ambiguous than DSP's.** Unlike BOI — whose celebrated record was built entirely by departed managers — Edelweiss's *current* lead (Trideep) has run the fund for 4.5 years and owns most of its calendar history. But what he owns is the **defensive, thin-alpha era**; the high-octane years belong to a manager now at a competitor. And uniquely among the studied leads, Trideep carries a personal SEBI penalty. The central Module 5 question for Edelweiss is therefore: **is this deep, well-credentialed team a genuine alpha engine, or a competent CIO running a defensive book who has just imported a specialist to fix the alpha gap?** The honest answer is *the latter, with the fix still unproven.*
+For Edelweiss the answers are **structurally more reassuring than BOI's but more ambiguous than DSP's.** Unlike BOI — whose celebrated record was built entirely by departed managers — Edelweiss's *current* lead (Trideep) has run the fund for 4.5 years and owns most of its calendar history. But what he owns is the **defensive era** — genuine alpha vs the buyable index (+2.61%/yr, per the retrofit note) earned through protection (up-84/down-67) rather than high-IR differentiated selection; the high-octane years belong to a manager now at a competitor. And uniquely among the studied leads, Trideep carries a personal SEBI penalty. The central Module 5 question for Edelweiss is therefore: **is this deep, well-credentialed team a genuine alpha engine, or a competent CIO running a defensive book who has just imported a specialist to sharpen it?** The honest answer: **a genuine, if defensively-earned, index-beater — with the Bhatia upgrade still unproven.**
 
 ---
 
@@ -350,7 +352,7 @@ xychart-beta
 ### ❌ Points Against
 
 1. **Lead manager carries a personal SEBI penalty (₹4L)** — Trideep named for the Focused Equity Fund's 30-stock-limit breach; a direct mark the DSP/HSBC/BOI leads don't carry
-2. **Thin alpha is the *current* lead's demonstrated record** — Trideep owns the defensive, flat-IR era (Modules 1–2); his SC track record shows protection, not outperformance
+2. **Defensively-earned alpha, not high-IR selection** — Trideep owns a genuine +2.61%/yr edge over the buyable Smallcap-250 index fund (up-84/down-67) but a modest information ratio (Modules 1–2); his SC record shows protection-led outperformance rather than differentiated stock-picking (see retrofit note)
 3. **The explosive 2020–21 years belong to the departed Patwardhan** — the high-octane record is not the current team's
 4. **Trideep's pedigree is generalist/large-cap/global, not small-cap-specialist** — the structural root of the thin small-cap alpha
 5. **The specialist (Bhatia) has only ~20 months at Edelweiss** — the alpha-fixing thesis is unproven; his impact not yet visible
@@ -367,7 +369,7 @@ xychart-beta
     title "Edelweiss Small Cap — Module 5 Sub-Dimension Scores"
     x-axis ["Tenure on Fund", "Team Depth", "Credentials", "Philosophy", "Skin in Game", "Communication", "Key-Person Risk", "Regulatory"]
     y-axis "Score (1-5)" 0 --> 6
-    bar [3.5, 4.0, 4.0, 3.0, 2.5, 3.5, 4.0, 2.5]
+    bar [3.5, 4.0, 4.0, 3.5, 2.5, 3.5, 4.0, 2.5]
 ```
 
 | Sub-Dimension | Score (1–5) | Reasoning |
@@ -375,12 +377,12 @@ xychart-beta
 | Manager tenure on this fund | **3.5** | Trideep ~4.5Y — longest of the post-2018 funds; owns most of the record (though the defensive era) |
 | Team depth & stability | **4.0** | Genuine three-person team (CIO + SC architect + CA analyst); deepest bench of the post-2018 funds; offset by short shared tenure |
 | Credentials | **4.0** | Best team credential mix of the studied funds (CFA + SC pedigree + CA); strongest individual academic pedigree |
-| Philosophy consistency | **3.0** | Coherent low-TE/quality house style; FlexiCap-proven — but demonstrated SC record is defensive/thin-alpha; specialist-fix unproven |
+| Philosophy consistency | **3.5** | Coherent low-TE/quality house style; FlexiCap-proven — demonstrated SC record is genuine-but-defensively-earned alpha (+2.61%/yr vs the buyable index, up-84/down-67; modest IR), not "thin"; Bhatia specialist-upgrade unproven |
 | Skin in the game | **2.5** | Not publicly disclosed; same gap as Sambre/Singh/Manghat vs PPFAS |
 | Investor communication | **3.5** | Above average — visible, articulate CIO; detailed fund presentations; no quarterly letters |
 | Key person / succession risk | **4.0** | Three-person team + deep AMC = lowest key-person risk of post-2018 funds; moderate bandwidth (9 schemes) |
 | Regulatory / manager character | **2.5** | **Trideep personally SEBI-fined ₹4L (focused-fund 30-stock breach)** — moderate yellow flag; the direct mark BOI/DSP/HSBC leads lack |
-| **Module 5 Overall** | **~3.4 / 5** | **A deep, well-credentialed, talent-gaining team — the anti-BOI — capped by a manager-level SEBI mark and a thin-alpha demonstrated record.** Best team credential mix of the studied funds (proven CIO + BOI's small-cap architect + a CA forensic), longest post-2018 lead tenure, lowest key-person/bandwidth risk — but Trideep is personally SEBI-penalised, his demonstrated SC record is defense-not-alpha, and the explosive years belong to the departed Patwardhan. Edges above BOI/HSBC (3.3) on team depth; level with Union (3.4); below DSP (3.9). |
+| **Module 5 Overall** | **~3.5 / 5** (revised) | **A deep, well-credentialed, talent-gaining team — the anti-BOI — capped by a manager-level SEBI mark and a defensively-earned (modest-IR) record.** Best team credential mix of the studied funds (proven CIO + BOI's small-cap architect + a CA forensic), longest post-2018 lead tenure, lowest key-person/bandwidth risk — but Trideep is personally SEBI-penalised, his demonstrated SC record is genuine-but-defensively-earned alpha (+2.61%/yr vs the buyable index, not "thin"), and the explosive years belong to the departed Patwardhan. Edges above BOI/HSBC (3.3) on team depth; level-to-just-above Union (3.4); below DSP (3.9). |
 
 ---
 
@@ -419,10 +421,10 @@ For a ₹20K/month satellite SIP, Module 5 is a **moderate positive** for Edelwe
 
 ## One-Line Verdict
 
-Edelweiss Small Cap is the *anti-carousel*: it kept a proven, globally-credentialed CIO (Trideep, ~4.5 years, Flexi Cap Rank #4) and *gained* BOI's own small-cap architect (Dhruv Bhatia) plus a CA forensic analyst (Raj Koradia) — the best-rounded team in the small-cap study on the deepest AMC backing — but the score (~3.4/5) is capped by a personal SEBI penalty on the lead manager, a demonstrated on-fund record that is defensive rather than alpha-generating, and the fact that the explosive early years belong to a manager who left to run a competitor; level with Union, a notch above BOI/HSBC, clearly below DSP.
+Edelweiss Small Cap is the *anti-carousel*: it kept a proven, globally-credentialed CIO (Trideep, ~4.5 years, Flexi Cap Rank #4) and *gained* BOI's own small-cap architect (Dhruv Bhatia) plus a CA forensic analyst (Raj Koradia) — the best-rounded team in the small-cap study on the deepest AMC backing — but the score (~3.5/5, revised) is capped by a personal SEBI penalty on the lead manager, a demonstrated on-fund record that is genuine-but-defensively-earned alpha (+2.61%/yr vs the buyable index, not "thin") rather than high-IR differentiated selection, and the fact that the explosive early years belong to a manager who left to run a competitor; level-to-just-above Union, a notch above BOI/HSBC, clearly below DSP.
 
 ---
 
-*Module 5 complete. Fund manager quality is a relative bright spot vs BOI: a deep three-person team (proven CIO Trideep + ex-BOI small-cap architect Bhatia + CA analyst Koradia), the longest post-2018 lead tenure, and a genuine talent in-flow — capped by a personal SEBI penalty on Trideep (₹4L, focused-fund stock-cap breach), a thin-alpha demonstrated record under the current lead, and the departed Patwardhan owning the explosive 2020–21 years. Module 5 score: ~3.4/5.*
+*Module 5 complete. Fund manager quality is a relative bright spot vs BOI: a deep three-person team (proven CIO Trideep + ex-BOI small-cap architect Bhatia + CA analyst Koradia), the longest post-2018 lead tenure, and a genuine talent in-flow — capped by a personal SEBI penalty on Trideep (₹4L, focused-fund stock-cap breach), a defensively-earned (modest-IR) demonstrated record under the current lead, and the departed Patwardhan owning the explosive 2020–21 years. Module 5 score: ~3.5/5 (revised Jul-6-2026 from 3.4 — retrofit: Trideep's alpha is genuine vs the buyable index, +2.61%/yr, not "thin"; see top-of-module correction note).*
 
 *Next: [Module 6 — AMC Quality](module6_amc.md)*

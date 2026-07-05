@@ -131,6 +131,8 @@ xychart-beta
 
 His 3Y CAGR across 3 funds (17.0%, 17.93%, 26.30%) shows **upward skill across market caps** — he is better at mid-caps than large-caps, which is exactly the right orientation for a manager running a fund with 27.74% midcap.
 
+> **⭐ Matched-index confirmation (added Jul 6, 2026 — from the MidCap study):** Computing Trideep's alpha the study-canonical way — vs the **matched investable index fund** for each of his three Edelweiss funds, over his identical Oct-2021→Jul-2026 tenure — gives **+3.18% (FlexiCap, vs the Nifty-500 index fund) / +2.92% (MidCap) / +2.61% (SmallCap)**, all earned defensively (down-capture below up-capture in each). **His FlexiCap alpha is the strongest of the three** — reinforcing this module's positive read. (Part of the +3.18% reflects the fund's deliberate mid-cap tilt as much as pure selection, but it is genuine outperformance of the buyable Nifty-500 index fund on the "why not the index?" test.) This also corrects the sibling SmallCap M5's "thin-alpha" framing, which used a beta-adjusted IR lens rather than the matched-index method.
+
 ---
 
 ## The SEBI Regulatory Action — A Material Blemish
