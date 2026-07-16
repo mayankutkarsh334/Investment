@@ -23,7 +23,7 @@ Edelweiss Mid Cap is the **risk-side anti-HSBC**: a genuinely defensive, low-bet
 | Calmar (5Y) | **1.02** | — | 3rd of 7; **above the index fund (0.85)** |
 | Max drawdown (5Y, current mandate) | **−20.1%** | — | Ties Invesco; **beats the index (−21.2%)** |
 | Max drawdown (direct era) | **−39.2%** (winter→COVID) | — | Patwardhan/former-mandate; unbroken Jan-2018→Mar-2020 span |
-| Max drawdown (full record) | **−74.7%** (2008, JPM mid+small) | — | **Deepest documented tail in the repo** — former mandate & AMC |
+| Max drawdown (full record) | **−74.7%** (2008, JPM mid+small) | — | Deepest documented tail in the repo *at the time of writing; superseded by ICICI Pru Midcap's −75.1% (its M2, Jul-2026)* — former mandate & AMC |
 | Beta vs Midcap 150 index (6.8y / 5Y) | **0.94 / 0.92** | — | Below 1.0 — the study plan's "good" threshold |
 | Beta vs band, pre-2018 / post-2018 | **0.97 / 0.88** | — | **Mandate change de-risked the fund** |
 | R² vs Midcap 150 index (6.8y) | **95%** | — | Very tight — active-share check → M3 |
@@ -221,7 +221,7 @@ Via the spliced Regular/JPMorgan series: **2008 GFC −74.7% (04-Jan-2008 → 09
 | HSBC (Chola) | −70.6% | ~19 mo |
 | Nippon | −62.7% | — |
 
-This is the **deepest and slowest-recovering 2008 tail of any fund in the repo** — but it belongs to JP Morgan's *Mid and Small Cap* book (a wider, higher-beta mandate) under a different AMC, with open-ended redemption pressure shaping the NAV. Treated as an asset-class-plus-former-mandate base rate, heavily caveated — but the lesson stands that this lineage, at its most aggressive, lost three-quarters of its value.
+This is the **deepest and slowest-recovering 2008 tail of any fund in the repo** *(update Jul-2026: superseded on depth by ICICI Pru Midcap's −75.1% / ~6y underwater — see that fund's M2; Edelweiss remains #2)* — but it belongs to JP Morgan's *Mid and Small Cap* book (a wider, higher-beta mandate) under a different AMC, with open-ended redemption pressure shaping the NAV. Treated as an asset-class-plus-former-mandate base rate, heavily caveated — but the lesson stands that this lineage, at its most aggressive, lost three-quarters of its value.
 
 ---
 
