@@ -6,7 +6,7 @@
 
 ## The One-Line Context
 
-Sundaram Mid Cap is the shortlist's **two-decade survivor — and the mirror-image of Mahindra Manulife**. Where Mahindra had rising alpha but *no history and a departed author*, Sundaram has the **deepest record of any studied midcap (20.3y of Regular NAV; true inception 30-Jul-2002), the only genuine fully-invested 2008 GFC test in the entire repo (−68.7%), and its turnaround author still in the chair (Bharath + Varier, since Feb-2021)**. But it also carries the **lowest 10Y CAGR of the seven (15.8%)**, a **failed matched-index test (−1.77%/yr since the investable index fund existed)**, and a "turnaround" that — measured honestly from the *actual* Feb-2021 manager handover rather than a cherry-picked calendar start — is **+0.17%/yr gross, i.e. it merely stopped losing to the index and, after a ~0.86% fee, still loses to it**. Pedigree-rich, alpha-poor: the record's *credibility and cycle-testing* are the best of the seven, its *forward alpha case* among the weakest.
+Sundaram Mid Cap is the shortlist's **two-decade survivor — and the mirror-image of Mahindra Manulife**. Where Mahindra had rising alpha but *no history and a departed author*, Sundaram has the **deepest record of any studied midcap (20.3y of Regular NAV; true inception 30-Jul-2002), the only genuine fully-invested 2008 GFC test in the entire repo (−68.7%), and its turnaround author still in the chair (Bharath S, since Feb-2021)** *(⚠ M3: co-manager Ratish Varier was rotated off ~09-Dec-2025 and replaced by Shalav Saket — the retention is only half true)*. But it also carries the **lowest 10Y CAGR of the seven (15.8%)**, a **failed matched-index test (−1.77%/yr since the investable index fund existed)**, and a "turnaround" that — measured honestly from the *actual* Feb-2021 manager handover rather than a cherry-picked calendar start — is **+0.17%/yr gross, i.e. it merely stopped losing to the index and, after a *1.06%* fee (M4, official), still loses to it** — *though M4's SIP-vs-lumpsum inversion shows this failure is a **lumpsum fact, not a SIP fact**: on a real ₹20K/mo SIP the fund has beaten the index in every Direct window*. Pedigree-rich, alpha-poor: the record's *credibility and cycle-testing* are the best of the seven, its *forward alpha case* among the weakest.
 
 ---
 
@@ -20,10 +20,11 @@ Sundaram Mid Cap is the shortlist's **two-decade survivor — and the mirror-ima
 | **Computable record** | Regular NAV **03-Apr-2006 → 15-Jul-2026 (20.3 years)**; Direct **02-Jan-2013 → (13.5 years)** — **longest of all seven** |
 | **SEBI Category** | Equity — Mid Cap (min 65% in ranks 101–250) |
 | **Benchmark** | **Nifty Midcap 150 TRI** |
-| **Current Managers** | **S. Bharath + Ratish B. Varier** (both since **24-Feb-2021**, ~5.4y) ⚠️ *one aggregator lists a "Shalav Saket"; the Mar-2025 factsheet shows only Bharath + Varier — roster discrepancy flagged for M5* |
+| **Current Managers** | **Bharath S** (since **24-Feb-2021**, ~5.4y) **+ Shalav Saket** (since **09-Dec-2025**, ~7 mo) *(⚠ M3 correction — the "Shalav Saket" aggregator reading was **CORRECT**, not an error; confirmed by the AMC's live Jun-2026 digital factsheet and dated via Groww's structured JSON)* |
+| **Rotated off** | **Ratish B. Varier** (co-managed **24-Feb-2021 → ~09-Dec-2025**) — *(⚠ M3 correction: present on the Mar-2025 official factsheet, absent from the Jun-2026 one; appears to remain at the AMC on 5 other schemes, so this is a **rotation, not a resignation**)* → **M5** |
 | **Departed Manager** | **S. Krishnakumar** (long-time author / ex-CIO-Equity; managed **until 24-Feb-2021**, then left the firm) |
-| **AUM** | **~₹12–13K Cr (est.)** — *the ₹77,804 Cr figure some aggregators show is AMC-total, not the fund* → **Module 4 to pin** |
-| **Expense Ratio (Direct)** | **~0.86%** (aggregator) — *high vs the cheap cohort (Mahindra 0.42, Invesco/Nippon low); the fee hurdle is decisive here* → **Module 4** |
+| **AUM** | **₹14,026 Cr** (month-end 30-Jun-2026, **AMC official**; avg ₹13,766 Cr) *(⚠ M3 update — estimate resolved. The ₹77,804 Cr aggregator figure was indeed AMC-total: the AMC's own site states "80k Crore+ Assets Under Management")* |
+| **Expense Ratio (Direct)** | **1.06%** — **AMC official SEBI TER disclosure, 14-07-2026** (Base 0.75 + brokerage 0.05 + txn 0.00 + statutory levies 0.26; Regular 1.87%). Groww's 1.06 was right; Tickertape's 0.88 stale. Validated from raw NAVs: computed Direct-vs-Regular divergence 0.838–0.848%/yr vs official gap 0.81% ✅ — *the **most expensive of the study**; ~2.4× Mahindra (0.42). ⚠ **M4: this breaches the study's own Stage-1 ER ≤ 1.0% screen — the criterion that admitted this fund.*** |
 | **NAV (15-Jul-2026)** | ₹1,647.77 (Direct); ₹1,496.68 (Regular) |
 | **Riskometer** | Very High |
 | **Min SIP** | ₹100 (monthly) |
@@ -106,7 +107,7 @@ Stitched proxy: Nifty Midcap-100 ETF (114456) for pre-2020; Nifty Midcap-150 ind
 | 2023 | +41.5% | +44.3% | −2.8 | Bharath + Varier | |
 | **2024** | **+33.1%** | +24.2% | **+8.9** | Bharath + Varier | **the turnaround's one monster year** |
 | 2025 | +5.0% | +5.8% | −0.8 | Bharath + Varier | |
-| 2026 YTD | +4.7% | +4.2% | +0.5 | Bharath + Varier | |
+| 2026 YTD | +4.7% | +4.2% | +0.5 | **Bharath + Saket** *(M3: Varier rotated off Dec-2025)* | |
 
 *(\*Regular series; pre-Direct)*
 
@@ -138,7 +139,7 @@ The "why not the 0.20% index fund?" axis, decomposed:
 | Manager window | Fund | Index | Alpha/yr |
 |----------------|------|-------|----------|
 | **Krishnakumar final (Sep-2019 → 24-Feb-2021)** | 24.55% | 34.03% | **−9.48%** |
-| **Bharath + Varier (24-Feb-2021 → now, 5.4y)** | 20.38% | 20.21% | **+0.17%** |
+| **Bharath + Varier (24-Feb-2021 → now, 5.4y)** *(⚠ M3: Varier rotated off ~09-Dec-2025; the last ~7 mo are Bharath + Saket)* | 20.38% | 20.21% | **+0.17%** |
 
 This is the module's spine. The alluring "+1.77 / +2.97 turnaround" **disappears when measured from the real manager-change date** — it is an artifact of starting the clock *after* the worst of the Krishnakumar drag and letting 2024's +8.9 dominate a short window. **Over its full 5.4-year tenure the new team has gross-matched the index (+0.17%/yr) — and since Sundaram charges ~0.86% vs the index fund's 0.20%, it is net-negative to the index even in its "good" era.** The fund fails the why-not-index test on *both* the honest full window and the honest new-team window. (This is the same discipline that dismantled HSBC's crown; here it dismantles the turnaround narrative.)
 
@@ -221,7 +222,7 @@ The seven-crisis table above is the richest risk history in the study. The three
 | Mahindra Manulife | 20.17% | 23.67% | — (8.4y) | +2.06 → 3.46 ✅ | departed |
 | HSBC | 20.45% | **27.68%** ⭐ | 18.47% | **−0.22** ❌ | 5 teams |
 | ICICI Pru | 19.01% | 24.75% | 17.78% | −0.35 (fade→rev) | current |
-| **Sundaram** | **18.92%** | 22.19% | **15.82% (lowest)** | **−1.77 / +0.17** ❌ | **retained** ✅ |
+| **Sundaram** | **18.92%** | 22.19% | **15.82% (lowest)** | **−1.77 / +0.17** ❌ | **half-retained** ⚠️ |
 
 Sundaram is **last on 10Y CAGR and worst on the full matched-index alpha**, but **best on record-length / cycle-testing and among the best on author-retention.**
 
@@ -232,9 +233,10 @@ Sundaram is **last on 10Y CAGR and worst on the full matched-index alpha**, but 
 | Era | Manager | Period | What the NAV record shows |
 |-----|---------|--------|---------------------------|
 | Legend decade | **S. Krishnakumar** (left the firm) | 2002/06 → 24-Feb-2021 | Legendary early record (2009 +114.6%, 2014 +19.8 alpha) **and** the catastrophic finale (2020 −13.4, 2021 −8.3; matched −9.48%/yr) |
-| **Current** | **S. Bharath + Ratish Varier** (in chair) | 24-Feb-2021 → now (5.4y) | Stopped the bleeding: +2.2 (2022), +8.9 (2024), else flat → **+0.17%/yr net vs index = matches gross, loses after fees** |
+| **Turnaround** | **Bharath S + Ratish Varier** | 24-Feb-2021 → ~09-Dec-2025 (4.8y) | Stopped the bleeding: +2.2 (2022), +8.9 (2024), else flat → **+0.17%/yr net vs index = matches gross, loses after fees** |
+| **Current** | **Bharath S + Shalav Saket** *(⚠ M3: Varier rotated off ~09-Dec-2025)* | Dec-2025 → now (~7 mo) | Too short to attribute; Saket carries 12–18 other funds, Bharath 9 → **M5** |
 
-**The honest attribution statement:** the *legendary* record belongs to a departed manager and predates the investable index era; the *current* team has, over a real 5.4-year tenure, delivered essentially zero net alpha vs a cheap index fund. The favorable part — the turnaround author is **retained**, unlike Mahindra (Lodha departed) and ICICI (author changed) — buys **credibility, not (yet) alpha**. This is the exact inverse of Mahindra: Mahindra had rising alpha with a departed author; Sundaram has a present author with no alpha.
+**The honest attribution statement:** the *legendary* record belongs to a departed manager and predates the investable index era; the *current* team has, over a real 5.4-year tenure, delivered essentially zero net alpha vs a cheap index fund. *(⭐ M5 refinement: the turnaround was **Bharath-led and he is retained at 5.4y — the longest lead tenure of the seven**; the Varier half was rotated off ~09-Dec-2025 for **Shalav Saket, who had zero prior fund-management record and took on 12 funds at once**. And M3/M4 showed the "zero net alpha" is a **wrapper problem, not a selection problem**: gross selection is **+1.66%/yr**, confiscated by a 1.06% fee + 0.63% cash drag.)* The favorable part — the turnaround author is **half-retained** (*⚠ M3 correction: Bharath S stays, but Ratish Varier was rotated off ~09-Dec-2025 and replaced by Shalav Saket*), which is still better than Mahindra (Lodha departed outright) and ICICI (author changed) — but it buys **less credibility than M1 originally claimed, and still no alpha**. This is the exact inverse of Mahindra: Mahindra had rising alpha with a departed author; Sundaram has a present author with no alpha.
 
 ---
 
@@ -249,7 +251,7 @@ Sundaram is **last on 10Y CAGR and worst on the full matched-index alpha**, but 
 | 2018 winter | **−45.3% clean** | artifact (−14.8%) | +1.6% clean | −8.8% clean | −10.3% clean | — |
 | Worst rolling 10Y | **+8.5% (real)** | none | — | — | — | — |
 | 2024–25 recovery | **8.0 mo** | 13.7 mo (slow) | ~6 mo | 6.4 mo | 16 mo | — |
-| Manager continuity | ✅ **retained (5.4y)** | ❌ author left | ❌ departed | ✅ Trideep | ❌❌❌ | current |
+| Manager continuity | ⚠️ **half-retained** — Bharath **5.4y = longest lead tenure of the seven** ✅; but **Varier rotated off Dec-2025 → Saket (zero prior PM record, 12 funds)** ❌; *M5: fund-level continuity is real, **AMC-level is not** — house-wide reshuffle, loads 9–19* | ❌ author left | ❌ departed | ✅ Trideep | ❌❌❌ | current |
 
 **One-line synthesis:** Sundaram's *record* is the most credible and cycle-tested of the seven — the only real 2008 test, a clean 2018 winter, a genuine (non-inception-biased) +8.5% worst-10Y floor, and a turnaround author still in the chair. But its *forward alpha case* is among the weakest — the lowest 10Y CAGR, a failed matched-index test on both honest windows, and a net-negative position vs the cheap index fund once the ~0.86% fee is applied. It is the inverse of Mahindra on every axis.
 
@@ -265,18 +267,18 @@ Sundaram is **last on 10Y CAGR and worst on the full matched-index alpha**, but 
 | 3Y/rolling consistency | High | **4.5** | 0% negative at 7Y/10Y across *real* bears; worst 10Y **+8.5%/yr** — genuine, not inception-biased |
 | 2008 / 2018 winter tests | Critical | **4.0** | only true GFC test in the repo (−68.7%); clean −45.3% winter (contrast Mahindra's artifact) |
 | 2024–25 correction | High | **3.5** | −21.0%, recovered 8.0 mo — in-line, beats Mahindra's 13.7 mo |
-| Manager attribution | Modifier | **+** | turnaround author **retained** (vs Mahindra/ICICI) — credibility, not alpha |
+| Manager attribution | Modifier | **~** *(downgraded from + per M3)* | turnaround author **only half-retained** — Bharath S stays (5.4y), but **⚠ M3: Ratish Varier was rotated off ~09-Dec-2025, replaced by Shalav Saket** (~7 mo). Still better than Mahindra/ICICI (authors fully departed), but the clean "author retained ✅" claim does not survive |
 | Recency discipline | Modifier | **− −** | the "turnaround" is 2024-loaded and collapses to +0.17%/yr at the true Feb-2021 handover |
 
 **Module 1 Score: ~3.4 / 5** — a low-mid midcap Module 1. Roughly level with HSBC (3.49): *below* it on the critical alpha axis, *above* it on cycle-tested consistency and author-retention.
-- **Case for 3.5–3.6:** unmatched 20-year cycle-tested record, the only real 2008 test, a clean non-inception-biased +8.5% worst-10Y floor, retained turnaround author.
+- **Case for 3.5–3.6:** unmatched 20-year cycle-tested record, the only real 2008 test, a clean non-inception-biased +8.5% worst-10Y floor, a *partly*-retained turnaround author (Bharath), and **M3's finding that the implied gross stock-selection alpha is ≈ +1.46%/yr — the pickers can pick; the wrapper takes it**.
 - **Case for 3.2–3.3:** lowest 10Y CAGR, fails the matched-index test on both honest windows, net-negative to the index fund after a ~0.86% fee, "turnaround" resting on one monster year (2024).
 - **3.4 is the honest midpoint.**
 
 **The score is explicitly provisional on:**
-- **Module 4 (pivotal)** — the ~0.86% ER is roughly double the cheap cohort. Against +0.17%/yr new-team gross alpha, the fund looks **structurally net-negative to the index fund**. If M4 confirms the fee and AUM (₹12–13K est., *not* the ₹77.8K AMC-total figure), M1 firms *down* toward 3.2.
+- ✅ **Module 4 — FIRED, and resolved as a HOLD at 3.4.** M4 confirmed the fee is **worse than assumed (1.06% official, not 0.86%)**, which alone would pull M1 to ~3.2. **But M4 also found the SIP-vs-lumpsum inversion**: on a real ₹20K/mo SIP, Sundaram **beat** the index in every Direct window — directly softening M1's "fails the matched-index test" verdict for this study's actual use case. **The two offset; M1's prose is patched, the score stands at 3.4.** *(Reversible: a reader weighting the canonical time-weighted test above the money-weighted one should read M1 as 3.2.)*
 - **Module 2** — does up-88 / down-92, beta 0.943 survive a Sharpe/Sortino recompute, and does the −68.7% GFC / −45.3% winter pair earn a genuine "most-tested defensiveness" premium? If so, M1 firms toward 3.5.
-- **Module 5** — resolve the Bharath+Varier vs "Shalav Saket" roster discrepancy; is the turnaround durable, or one-year (2024) luck?
+- **Module 5** — ✅ *roster RESOLVED by M3: Bharath S (24-Feb-2021 →) + **Shalav Saket (09-Dec-2025 →)**; Ratish Varier rotated off ~09-Dec-2025. The "Shalav Saket" aggregator reading was correct.* Open: is the turnaround durable or one-year (2024) luck, and can a house-process book (Bharath 9 other funds, Saket 12–18) carry conviction?
 - **Module 6** — first study of the Sundaram AMC in the repo.
 
 ---
@@ -311,8 +313,8 @@ For a ₹20,000/month SIP with a 10+ year horizon, Module 1 says:
 
 ## One-Line Verdict
 
-> **Sundaram Mid Cap's Module 1 is the two-decade survivor and the mirror-image of Mahindra Manulife: it has the deepest, most credible, most cycle-tested record of the seven — 20.3 years of NAV, the only genuine fully-invested 2008 GFC test in the repo (−68.7%, recovered 17.4 mo), a clean 2018 winter (−45.3%), a real (non-inception-biased) +8.5% worst-rolling-10Y floor, and its turnaround author (Bharath + Varier) still in the chair after 5.4 years — but its forward alpha case is among the weakest: the lowest 10Y CAGR of the seven (15.82%), a failed matched-index test (−1.77%/yr since the investable index fund existed), and a "turnaround" that collapses to +0.17%/yr gross when measured honestly from the Feb-2021 manager handover, which after the ~0.86% fee leaves it net-negative to the 0.20% index fund even in its good era. The full-window drag is entirely the departing Krishnakumar's catastrophic 2020–21 COVID-recovery lag (−9.48%/yr matched, −13.4 & −8.3 calendar alpha); the current team stopped the bleeding but has not beaten the index. Provisional: ~3.4/5 — level with HSBC, below it on the critical alpha axis but above it on cycle-testing and author-retention, explicitly conditional on Module 4 (does the fee make the index fund strictly dominant? → would pull toward 3.2) and Module 2 (does the deepest-cycle risk profile earn a defensiveness premium? → could firm to 3.5).**
+> **Sundaram Mid Cap's Module 1 is the two-decade survivor and the mirror-image of Mahindra Manulife: it has the deepest, most credible, most cycle-tested record of the seven — 20.3 years of NAV, the only genuine fully-invested 2008 GFC test in the repo (−68.7%, recovered 17.4 mo), a clean 2018 winter (−45.3%), a real (non-inception-biased) +8.5% worst-rolling-10Y floor, and its turnaround author (Bharath S) still in the chair after 5.4 years *(⚠ M3: co-manager Varier rotated off Dec-2025 → Shalav Saket)* — but its forward alpha case is among the weakest: the lowest 10Y CAGR of the seven (15.82%), a failed matched-index test (−1.77%/yr since the investable index fund existed), and a "turnaround" that collapses to +0.17%/yr gross when measured honestly from the Feb-2021 manager handover, which after the **1.06%** fee (M4, official) leaves it net-negative to the 0.20% index fund even in its good era *(⚠ M4 caveat: on a **money-weighted SIP** — this study's actual use case — Sundaram beat the index in every Direct window (+₹0.17L over the full index-fund life), because the 2020–21 collapse hit when almost no capital was invested; the index failure is time-weighted, not SIP-weighted)*. The full-window drag is entirely the departing Krishnakumar's catastrophic 2020–21 COVID-recovery lag (−9.48%/yr matched, −13.4 & −8.3 calendar alpha); the current team stopped the bleeding but has not beaten the index. Provisional: ~3.4/5 — level with HSBC, below it on the critical alpha axis but above it on cycle-testing and author-retention, explicitly conditional on Module 4 (does the fee make the index fund strictly dominant? → would pull toward 3.2) and Module 2 (does the deepest-cycle risk profile earn a defensiveness premium? → could firm to 3.5).**
 
 ---
 
-*Module 1 completed: July 16, 2026 | Returns Consistency | MFAPI methodology — Direct 119581 (3,328 pts, 02-Jan-2013 → 15-Jul-2026), Regular 101539 (4,994 pts, 03-Apr-2006 →, cleaned of a 0.0-NAV glitch on 18-May-2009); index counterfactuals Motilal Nifty Midcap 150 Index Fund 147622 (11-Sep-2019 →, matched alpha −1.77%/yr full / +0.17%/yr new-team; up-88/down-92, beta 0.943, IR −0.43) and Motilal Midcap 100 ETF 114456 (Feb-2011 →, +1.40%/yr full-life) | Tickertape screening reproduced (3Y 22.19/22.27 · 10Y 15.82/15.63) | Inception 30-Jul-2002 (ex-Sundaram Select Midcap) | Managers: S. Krishnakumar (→ 24-Feb-2021, left firm) → S. Bharath + Ratish Varier (24-Feb-2021 →, 5.4y) | Provisional M1 Score: ~3.4/5 (conditional on M4 fee test and M2 risk recompute)*
+*Module 1 completed: July 16, 2026 | Returns Consistency | MFAPI methodology — Direct 119581 (3,328 pts, 02-Jan-2013 → 15-Jul-2026), Regular 101539 (4,994 pts, 03-Apr-2006 →, cleaned of a 0.0-NAV glitch on 18-May-2009); index counterfactuals Motilal Nifty Midcap 150 Index Fund 147622 (11-Sep-2019 →, matched alpha −1.77%/yr full / +0.17%/yr new-team; up-88/down-92, beta 0.943, IR −0.43) and Motilal Midcap 100 ETF 114456 (Feb-2011 →, +1.40%/yr full-life) | Tickertape screening reproduced (3Y 22.19/22.27 · 10Y 15.82/15.63) | Inception 30-Jul-2002 (ex-Sundaram Select Midcap) | Managers: S. Krishnakumar (→ 24-Feb-2021, left firm) → Bharath S + Ratish Varier (24-Feb-2021 → ~09-Dec-2025) → **Bharath S + Shalav Saket (09-Dec-2025 →)** [⚠ M3 correction, Jul-16] | AUM ₹14,026 Cr official (M3); ER unresolved 0.86/0.88/1.06 → M4 | Provisional M1 Score: ~3.4/5 (conditional on M4 fee test and M2 risk recompute)*
