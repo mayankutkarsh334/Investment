@@ -103,14 +103,14 @@ Rebuilt from the module 1–6 raw data (Motilal peer matrices, computed on a com
 
 | Metric | Edelweiss | Invesco | Nippon | Mahindra | ICICI | HSBC | Sundaram | *Motilal* |
 |--------|-----------|---------|--------|----------|-------|------|----------|-----------|
-| **Active share** | ~55–60%¹ | **79.5%** | 54.1% | 66.6% | 73.9% | 69.5% | 55.2% | *78.4%* |
+| **Active share** | ~55% (est.)¹ | **79.5%** | 54.1% | 66.6% | 73.9% | 69.5% | 55.2% | *78.4%* |
 | # Stocks | ~70 | 44 | 96 | 66 | 83 | 77 | 85 | *29* |
 | Top-10 concentration | ~30% | 46.7% | 23.1% | 25.9% | 38.0% | 39.7% | 24.8% | *54.9%* |
 | Turnover | 36% | 28% | **13.7%** | ~60% | 75% | ~110% | 36% | *95%* |
 | Small-cap % | 10.7% | 22.6% | 12.9% | 15.9% | — | 21.0% | 13.6% | *0.00%* |
 | Style | balanced-quality | high-conviction growth | broad/patient | diversified | cyclical-thesis | churn-heavy | breadth-diversified | *new-economy conviction* |
 
-¹ Edelweiss active share not captured in the common Motilal M3 matrix — see [funds/edelweiss/module3_portfolio.md](funds/edelweiss/module3_portfolio.md); it is a balanced ~55–60% book, not a closet indexer.
+¹ Edelweiss active share is a **structural estimate (~55%), not a full-holdings computation** — its factsheet PDF is Azure-403-blocked and holdings are JS-rendered, so its M3 triangulated ~55% from the verified top holdings + cap/sector data + M2's fingerprint (see [funds/edelweiss/module3_portfolio.md](funds/edelweiss/module3_portfolio.md)). It is genuinely active (Nippon-like breadth, not conviction-dense), not a closet indexer — but it is the least differentiated of the top trio and closest to the closet line. *(If a later holdings-API pass confirms AS materially >60%, Edelweiss's M2/M3 case strengthens.)*
 
 > **Active share is the closet-index test unique to this category.** Invesco (79.5%) and Motilal (78.4%) are the most differentiated; Nippon (54.1%) and Sundaram (55.2%) achieve activeness through *breadth* (90+ names, low top-10) rather than concentration. **None is a closet indexer** — the lowest, Nippon at 54.1%, still clears the ~40% closet-index floor comfortably. Nippon's 13.7% turnover (a ~7-year holding period) is the study's most patient book; Motilal's 95% (M4-corrected) is near the top.
 
@@ -121,8 +121,8 @@ Rebuilt from the module 1–6 raw data (Motilal peer matrices, computed on a com
 | **ER (Direct)** | **0.48%** | 0.49% | 0.73% | **0.42%** | ~1.08% | 0.56% | 1.06% | *0.76%* |
 | Fee premium vs 0.26% index | +0.22% | +0.23% | +0.47% | **+0.16%** | +0.82% | +0.30% | +0.80% | *+0.50%* |
 | **Fee-for-alpha** | **best** | strongly + | positive | strongly + | negative | negative | worst | *≤ 0* |
-| AUM (₹ Cr) | 16,849 | 12,397 | **47,415** ⚠ | **4,866** ✅ | ~large | 14,249 | 13,687 | *37,474 ⚠* |
-| AUM verdict | sweet spot | sweet spot | **approaching constraint** | ample runway | good | sweet spot | sweet spot | *approaching constraint* |
+| AUM (₹ Cr) | 16,849 | 12,397 | **47,415** ⚠ | **4,866** ✅ | 7,846 | 14,249 | 13,687 | *37,474 ⚠* |
+| AUM verdict | sweet spot | sweet spot | **approaching constraint** | ample runway | sweet spot | sweet spot | sweet spot | *approaching constraint* |
 | M4 score | 4.2 | 4.2 | 3.6 | 4.1 | 3.4 | 3.6 | 2.8 | *2.9* |
 
 > **Cost & AUM is where the ranking is decided.** Edelweiss and Invesco pair a cheap ER (~0.48%) with the study's best fee-for-alpha; Mahindra is the cheapest of all (0.42%) with decades of capacity runway. **Nippon's only real weakness is here** — at ₹47,415 Cr it is the largest, and the capacity clock against a 150-stock pond is why its Cost module (3.6) drops it behind Edelweiss despite winning risk and portfolio. Sundaram (1.06%) and ICICI (~1.08%) are the expensive tail.
@@ -256,13 +256,44 @@ flowchart TD
 
 ---
 
-## 9. Year-by-Year Character (qualitative — full calendar grid deferred)
+## 9. Year-by-Year Calendar Stress-Test (absolute returns, %)
 
-The category's calendar behaviour is dominated by two facts already established in the modules:
-- **2024 was a mid-cap melt-up** (Nifty Midcap 150 +24%); the concentrated books (Motilal +58.9%, Invesco, Edelweiss) led, the broad books (Nippon, Sundaram) trailed but held.
-- **2024–25 correction was the discriminator**: recovery speed ran ICICI (2.6 mo) < Invesco/Edelweiss/Nippon (~6–7 mo) < Mahindra (13.7 mo) < HSBC (16 mo) < **Motilal (unrecovered, 19 mo)**. Correction-recovery is the single most decision-relevant calendar fact, and it maps almost exactly onto the risk-module ranking.
+Calendar returns from each fund's Module 1 (Direct-era; pre-Direct spliced from Regular where noted in-module). Index = Nifty Midcap 150 TRI. **Bold = best shortlist fund that year** (Motilal shown separately as the out-of-shortlist reference).
 
-> *(A full year-by-year calendar-return table across all 8 funds is a candidate enrichment if the shared-file retrofits are run — see §12.)*
+| Year | Market context | Index | Edelweiss | Invesco | Nippon | Mahindra | ICICI | HSBC | Sundaram | *Motilal (OOS)* |
+|------|----------------|-------|-----------|---------|--------|----------|-------|------|----------|-----------------|
+| **2018** | Midcap winter (IL&FS) | −15.3 | −14.6 | **−3.6** | −10.3 | +2.1ᵃ | −9.8 | −11.2 | −14.8 | *−11.5* |
+| **2019** | Winter pt 2, LC-only | −3.5 | +6.8 | +5.4 | **+7.4** | +7.0ᵃ | +0.4 | +1.0 | n/aᵇ | *+11.0* |
+| 2020 | COVID crash + V | +26.1 | **+28.4** | +26.1 | +22.9 | +20.7 | +20.2 | +20.5 | +12.7 | *+10.7* |
+| 2021 | Post-COVID bull | +46.9 | **+52.5** | +45.2 | +47.6 | +52.3 | +46.2 | +31.9 | +38.6 | *+57.8* |
+| 2022 | Rate-hike grind | +3.6 | +4.0 | +2.0 | **+6.7** | +2.0 | +4.1 | +2.2 | +5.8 | *+12.0* |
+| 2023 | Midcap rally | +44.3 | +40.4 | +35.9 | **+49.8** | +49.3 | +33.9 | +41.5 | +41.5 | *+43.3* |
+| **2024** | Melt-up, Sep top | +24.2 | +40.8 | **+45.0** | +27.9 | +31.2 | +28.1 | +41.2 | +33.1 | *+58.9* |
+| **2025** | Correction | +5.8 | +5.1 | +7.6 | +4.5 | +2.7 | **+11.9** | −0.3 | +5.0 | *−11.4* |
+| 2026 YTD | Recovery | ~+3.0 | +3.5 | +8.9 | +6.7 | +8.6 | +7.8 | **+13.3** | +4.7 | *+0.5* |
+
+ᵃ **Mahindra 2018–19 are NFO-cash artifacts** — the fund launched Jan-2018 and was ramping from cash, so these are not stock-selection results (flagged in its M1).
+ᵇ Sundaram's M1 uses a *selective* calendar table (2008/09/14/17/18/20…) and **omits 2019** — a genuine source gap, not a computed zero.
+
+**Reading — no single fund wins every regime, and the pattern is diagnostic:**
+- **Defensive funds win the falls:** Invesco (2018), Nippon (2019, 2022 grind), ICICI (2025 correction). These are the risk-module leaders showing up exactly where the risk module predicted.
+- **Concentrated funds win the melt-ups:** Edelweiss (2020, 2021), Invesco (2024) — and Motilal (OOS) tops 2021/2024 in absolute terms, the amplitude the instructive case documents (it also owns the worst year, 2025 −11.4%).
+- **HSBC's +13.3% 2026 YTD is the recency-ramp** its M1 flags — a single explosive stub that inflates trailing windows; the honest 8-year record is middling.
+
+### The discriminator — 2024–25 correction recovery (the single most decision-relevant calendar fact)
+
+| Fund | Recovery from the 2024–25 correction |
+|------|--------------------------------------|
+| ICICI | **2.6 mo** ⭐ |
+| Invesco | ~6 mo |
+| Edelweiss | 6.4 mo |
+| Nippon | ~7 mo |
+| Sundaram | 8.0 mo |
+| Mahindra | 13.7 mo |
+| HSBC | ~16 mo |
+| *Motilal (OOS)* | *unrecovered — 19 mo, −12.5% below peak* ❌ |
+
+> Correction-recovery maps almost exactly onto the risk-module (M2) ranking — which is why **risk behaviour, not the melt-up years, is the more durable read for a 10-year hold.** A fund that recovers in 6 months and a fund that takes 16 (or never) can post similar 2024 numbers; the difference only shows when it matters.
 
 ---
 
@@ -350,4 +381,4 @@ For a ₹20,000/month, 10-year mid-cap sleeve, **decide the passive/active fork 
 
 ---
 
-*Analysis date: 2026-07-27 | Framework: 6-Module Weighted Scoring (Mid-Cap adaptation) | Funds studied: 7 of 7 shortlisted + 1 out-of-shortlist (Motilal Oswal) | Standings: Edelweiss 4.05 > Invesco 3.97 ≈ Nippon 3.96 > Mahindra 3.83 > ICICI 3.55 > HSBC 3.49 > Sundaram 3.35; Motilal (OOS) ref 3.28 | Category-level findings carried in: (1) NO fund has statistically significant alpha (all t between −1.32 and +1.38) ⇒ passive fork is genuine; (2) real index-fund counterfactual is 0.26% not 0.20% | Single-slot decision (150-stock pond ⇒ ~90–95% overlap) | Source: all 48 module files in `/funds/<fund>/module[1-6]_*.md` + each README scorecard; cross-fund metric tables from the Motilal-module peer matrices (common-window, directly comparable) | Documented gaps: Edelweiss active share not in the common matrix; full year-by-year calendar grid deferred; ICICI/HSBC precise AUM not in the common M4 table | Pending shared-file retrofits: t-stat columns, 0.26% counterfactual, AMC-verified TER re-pull, stage1/study_plan Motilal patches*
+*Analysis date: 2026-07-27 | Framework: 6-Module Weighted Scoring (Mid-Cap adaptation) | Funds studied: 7 of 7 shortlisted + 1 out-of-shortlist (Motilal Oswal) | Standings: Edelweiss 4.05 > Invesco 3.97 ≈ Nippon 3.96 > Mahindra 3.83 > ICICI 3.55 > HSBC 3.49 > Sundaram 3.35; Motilal (OOS) ref 3.28 | Category-level findings carried in: (1) NO fund has statistically significant alpha (all t between −1.32 and +1.38) ⇒ passive fork is genuine; (2) real index-fund counterfactual is 0.26% not 0.20% | Single-slot decision (150-stock pond ⇒ ~90–95% overlap) | Source: all 48 module files in `/funds/<fund>/module[1-6]_*.md` + each README scorecard; cross-fund metric tables from the Motilal-module peer matrices (common-window, directly comparable) | Documented gaps RESOLVED (Jul-27): Edelweiss AS ~55% (structural estimate per its M3), ICICI AUM ₹7,846 Cr + HSBC ₹14,249 Cr added to §3d, full year-by-year calendar grid added (§9); residual source gaps — Edelweiss AS is a triangulated estimate pending a holdings-API pass, Sundaram 2019 omitted from its own M1 | Pending shared-file retrofits: t-stat columns, 0.26% counterfactual, AMC-verified TER re-pull, stage1/study_plan Motilal patches*
