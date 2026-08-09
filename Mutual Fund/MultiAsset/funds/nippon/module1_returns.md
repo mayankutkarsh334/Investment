@@ -241,3 +241,68 @@ For a ₹15–20k/month SIP, Nippon offers what SBI could not: a genuine, wide m
 *Module 1 complete. Provisional score 4.1/5. Method: self-computed from MFAPI 148457 (1,455 NAVs, 28-Aug-2020 → 29-Jul-2026); blended benchmark & DIY baskets from Nifty 50 (120620) / ICICI All Seasons Bond (120603) / SBI Gold (119788); factsheet (ER, tax, holdings, managers) from ValueResearch/Groww. **Cross-fund note:** Nippon and SBI are opposite tilts — Nippon equity-plus (return leader), SBI defensive-balanced (risk leader). **Handoffs:** equity-style-vs-skill decomposition + international/gold split → M3; the wide DIY edge post-tax → M4 (with the shared middle-tier finding); severe-bear behaviour is unobservable (flagged) → M2 must lean on 2022 + the current 2026 dip. First module for this fund — no retrofit.*
 
 *Next: [Module 2 — Risk Profile](module2_risk.md)*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — Missing Dimensions Added, and a Material Benchmark Correction
+
+> **Why this addendum exists.** A study-wide audit found Nippon's write-up to be one of the two thinnest of the seven funds (1,467 lines, 24 charts) and — like the four other early studies — **built entirely from aggregators, never from the scheme's primary documents.** This section closes that gap. **The Scheme Information Document has now been retrieved and read, and it shows the blended benchmark used throughout this module was materially wrong.**
+
+## A1. ⭐ The Real Benchmark — from the SID, verbatim
+
+> **"AMFI Tier I Benchmark - 50% of BSE 500 TRI, 20% of MSCI World Index TRI, 15% of CRISIL Short Term Bond Index, 10% of Domestic prices of Gold & 5% of Domestic prices of Silver"**
+> — *Nippon India Multi Asset Allocation Fund SID (AMFI portal doc 12137), Part I §VII, verbatim*
+
+**This module used a three-leg blend of 55% Nifty 50 / 20% debt / 25% gold. Three things were wrong with it:**
+
+| Error | Effect |
+|---|---|
+| **Nifty 50 used instead of BSE 500** | Nifty 50 returned **14.78%/yr** over this window vs Nifty 500's **17.51%** — a **2.73pp/yr** understatement of the equity leg |
+| **⚠ The 20% international leg was omitted entirely** | MSCI World (S&P 500 proxy) returned **19.22%/yr — the best-performing leg of all.** Dropping a 20% weight in the highest-returning asset understated the benchmark badly |
+| **Gold weighted 25% vs the benchmark's 10% gold + 5% silver** | Partially offsetting, since gold returned 17.58% |
+
+### The corrected alpha
+
+```mermaid
+xychart-beta
+    title "Nippon blended alpha - as reported vs corrected (pp/yr)"
+    x-axis ["M1 as published (55 N50/20/25)", "Corrected SID benchmark (50/20intl/15/15)"]
+    y-axis "Alpha vs benchmark (pp/yr)" 0 --> 4.5
+    bar [3.85, 1.48]
+```
+
+| Benchmark construction | CAGR | **Nippon alpha** |
+|---|---|---|
+| **Nippon India Multi Asset** | **18.34%** | — |
+| ❌ *M1 as published* — 55% Nifty 50 / 20% debt / 25% gold | 14.49% | ~~+3.85%/yr~~ |
+| ✅ **SID benchmark** — 50% BSE500 / 20% intl / 15% ST bond / 15% precious | **16.86%** | **+1.48%/yr** (daily) · **+1.39%/yr** (annual) |
+| Robustness: 55/15/15/15 | 16.73% | +1.61% |
+| Robustness: 45/25/15/15 | 16.98% | +1.36% |
+| *No-international control (70/15/15)* | *16.27%* | *+2.08% — the intl leg alone accounts for ~0.6pp* |
+
+**The alpha is overstated in the published module by roughly 2.4 percentage points — about 60% of the reported figure.** Corrected, it is **+1.36% to +1.61%/yr** — tight and robust, but a different order of claim.
+
+**This also reorders the study.** On like-for-like Nifty-500 legs: **ICICI +4.01%/yr · WOC +1.92%/yr · Nippon +1.39–1.48%/yr.** The published module described Nippon's edge as *"large… unlike SBI's thin +0.5–0.7%"*; corrected, it sits **below WOC and well below ICICI.**
+
+### The corrected DIY test
+
+| | CAGR | **Nippon edge** |
+|---|---|---|
+| ❌ *M1 as published* — DIY 65/25/10, Nifty-50 leg | 13.53% | ~~+4.81%/yr~~ |
+| ✅ **DIY 65/25/10, Nifty-500 + short-duration-debt legs** | **15.11%** | **+3.23%/yr** (daily) · **+2.92%/yr** (annual) |
+
+**Nippon still clears the DIY bar comfortably — but by ~2.9–3.2pp/yr, not ~4.8pp.**
+
+## A2. ⚠ Score Corrections
+
+| Sub-dimension | Was | **Now** | Reason |
+|---|---|---|---|
+| Alpha vs blended benchmark | 4.5 | **3.5** | Alpha is **+1.39–1.48%/yr**, not +3.85%. Guide: 1–2% = 4; docked half a point further because the published figure rested on a benchmark missing the fund's own 20% international leg |
+| Beat the DIY static basket | 5.0 | **4.0** | **+2.92–3.23%/yr**, not +4.81%. Still a clear, robust win — no longer an exceptional one |
+| **Module 1 Overall** | **~4.1** | **⚠ ~3.8 / 5** | The return record is unchanged and still good; the *margin over the right yardstick* is materially smaller than published |
+
+**What does not change:** the CAGR ladder, the rolling-return distribution (0% negative at 3Y/5Y), the SIP XIRR, the 2022 lag, and the severe-bear caveat. **This correction is about the benchmark, not the fund's returns.**
+
+---
+
+*Addendum complete. **Method:** benchmark taken **verbatim from the SID** (AMFI portal doc 12137, text-extracted); corrected blend built from Motilal Oswal Nifty 500 Index (**147625**) as the BSE-500 proxy, **Motilal Oswal S&P 500 Index (148381)** as the MSCI-World proxy, HDFC Short Term Debt (**119016**) as the CRISIL-ST-Bond proxy, and SBI Gold (**119788**) carrying the 10% gold + 5% silver legs (silver folded into gold because the Nippon Silver ETF FoF series begins Feb-2022, after this fund's Aug-2020 inception — flagged as an approximation). **Retrofit chain:** this correction feeds M3 (the international sleeve is ~12.8% effective, not the ~5% assumed) and M4 (the DIY margin narrows but the verdict holds).*

@@ -6,6 +6,18 @@
 >
 > **⚠ Scores are NOT comparable to the four equity categories** (multi-asset re-weight: Risk 25 / Returns 20 / Allocation 20 / Cost+Tax 20 / Manager 10 / AMC 5). **Not investment advice.**
 
+
+> ### ✅ AUDIT COMPLETED AUGUST 2026 — score unchanged at ≈3.20, three dimensions added
+> A study-wide audit found this fund had the **thinnest write-up of the seven** (1,455 lines, 24 charts, no primary-source verification) despite the **joint-fullest evidence base** (13.6y, 3,338 NAVs, all five stress events). The SID has now been read and the central governance claim re-verified. **Unlike the Nippon audit, which cut that fund's score from 3.71 to 3.51, Quant's conclusions survive intact:**
+>
+> 1. **✅ The alpha claim is verified.** The SID benchmark is **65% BSE 200 + 15% CRISIL Short Term Bond + 20% iCOMDEX Composite** — different from both Tickertape's "NIFTY 500 TRI" and the blend this study used. But the study's construction errors **offset to within one basis point**: corrected alpha **+9.63 to +9.84%/yr**, unchanged, and the DIY edge is **+11.16–11.27%/yr — still ~3× ICICI's.**
+> 2. **✅ The front-running settlement is verified.** The ICICI precedent (where a claimed front-running case turned out not to exist) required this check. A second independent source confirms SEBI's High Powered Committee **accepted** the settlement — now dated **Aug-2025** and quantified at **₹1–2 crore per individual** against ₹70–80 crore of alleged transactions, with no findings of fact established. The 1.8 stands.
+> 3. **⚠ NEW — 37% of the "13.6-year record" is a different AMC.** quant Mutual Fund is the **former Escorts Mutual Fund**, acquired 2018. The pre-2018 NAV series is **unusable**: volatility 38.13%, a single day of **−44.80%** and another of **+81.23%**, lag-1 autocorrelation −0.42. **The genuine record is 8.6 years (CAGR 21.42%, vol 13.31%), not 13.6.** Any full-life figure — including the −44.80% "max drawdown" — is an artifact.
+> 4. **⚠ NEW — peak effective equity beta hit 97.6%, ~18pp above the SID's own 80% equity ceiling.** Either a high-beta momentum book or derivative amplification; the module cannot distinguish them. Either way it understates peak market sensitivity for anyone sizing off the stated band.
+>
+> **Also surfaced, for another fund:** the SEBI report confirming Quant's settlement is headlined *"…Settlements from **Nippon** and Quant Mutual Fund Executives"* — **Nippon's Module 6 (3.7) records no such settlement.** Flagged there as unverified.
+
+
 ---
 
 ## The Six-Module Scorecard

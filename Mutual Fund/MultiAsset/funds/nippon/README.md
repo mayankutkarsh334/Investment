@@ -2,9 +2,20 @@
 
 **Direct Plan – Growth · MFAPI 148457 · AUM ₹16,000 Cr · ER ~0.27–0.43% (cheapest in shortlist) · studied Jul 2026**
 
-> **Final weighted score: ≈ 3.71 / 5.** The **returns-and-cost leader** of the cycle-tested funds — a genuinely cheap (at/below DIY cost), high-returning, actively-allocated multi-asset fund with the broadest asset book in the study (including international equity). But it wins by being **equity-*tilted*, not defensive** — its record is bull-flattered (no severe-bear test), its "alpha" is largely equity-overweight beta, and — most importantly — **the architect who built the whole record left the fund in early 2026.**
+> **Final weighted score: ≈ 3.51 / 5** *(revised down from 3.71 in Aug-2026 — see the correction box below).* The **returns-and-cost leader** of the cycle-tested funds — a genuinely cheap (at/below DIY cost), high-returning, actively-allocated multi-asset fund with the broadest asset book in the study (including international equity). But it wins by being **equity-*tilted*, not defensive** — its record is bull-flattered (no severe-bear test), its "alpha" is largely equity-overweight beta, and — most importantly — **the architect who built the whole record left the fund in early 2026.**
 >
 > **⚠ Scores are NOT comparable to the four equity categories** (multi-asset re-weight: Risk 25 / Returns 20 / Allocation 20 / Cost+Tax 20 / Manager 10 / AMC 5). **Not investment advice.**
+
+
+> ### ⚠ CORRECTIONS APPLIED AUGUST 2026 — score revised 3.71 → 3.51
+> A study-wide audit found this fund's write-up was one of the two thinnest of seven and, like the four other early studies, **was built entirely from aggregators and never from the scheme's primary documents.** Three material errors followed:
+>
+> 1. **The benchmark was wrong (M1).** The SID declares **"50% BSE 500 TRI, 20% MSCI World Index TRI, 15% CRISIL Short Term Bond, 10% gold, 5% silver."** The study used 55% Nifty 50 / 20% debt / 25% gold — **wrong equity index, and the 20% international leg omitted entirely.** Corrected alpha: **+1.39–1.48%/yr, not +3.85%.** DIY edge: **+2.92–3.23%/yr, not +4.8%.**
+> 2. **It is the only fund in the study to fail the stale-pricing test (M2).** Lag-1 autocorrelation **+0.0746 (t = 2.84, significant)**; Geltner-unsmoothed volatility **10.26% vs 9.54% reported** — risk understated by 7.6%, Sharpe overstated by 0.09. Cause: the international sleeve is priced after the Indian NAV cut-off.
+> 3. **The "active engine" claim does not survive a like-for-like test (M3).** On the same rolling-26-week settings used for every peer, Nippon's equity dial moves **20.8pp (sd 4.8)** — **the narrowest of the five cycle-tested funds, narrower than SBI**, which this study used as its static counter-example. And the international sleeve is **~12.8% effective, not the ~5% reported.**
+>
+> **What survives unchanged:** the cheapest ER in the shortlist (M4 4.1), the genuine six-sleeve breadth, the real 2022 cushioning, and the departed-architect finding (M5 3.0). **The fund is still good — the margins were overstated.**
+
 
 ---
 
@@ -15,18 +26,18 @@ xychart-beta
     title "Nippon Multi Asset — Module Scores (1–5)"
     x-axis ["M1 Returns", "M2 Risk", "M3 Allocation", "M4 Cost+Tax", "M5 Manager", "M6 AMC"]
     y-axis "Score" 0 --> 5
-    bar [4.1, 3.6, 3.4, 4.1, 3.0, 3.7]
+    bar [3.8, 3.3, 3.1, 4.1, 3.0, 3.7]
 ```
 
 | Module | Topic | Weight | Score | Weighted | One-line |
 |--------|-------|--------|-------|----------|----------|
-| [M1](module1_returns.md) | Returns & Allocation Alpha | 20% | 4.1 | 0.82 | Large DIY-beating alpha, cheap — but bull-only, equity-tilted |
-| [M2](module2_risk.md) | Risk Profile | 25% | 3.6 | 0.90 | Equity-plus dampener; weaker diversifier; never severe-bear-tested |
-| [M3](module3_allocation.md) | Allocation Engine & DNA | 20% | 3.4 | 0.68 | Real engine + broadest book (incl. intl); mixed skill, index-like equity |
+| [M1](module1_returns.md) | Returns & Allocation Alpha | 20% | **3.8** | 0.760 | ⚠ **Alpha corrected +3.85% → +1.39–1.48%/yr** on the real SID benchmark; still beats DIY |
+| [M2](module2_risk.md) | Risk Profile | 25% | **3.3** | 0.825 | ⚠ **Only fund to fail the stale-pricing test** — true vol 10.26% not 9.54% |
+| [M3](module3_allocation.md) | Allocation Engine & DNA | 20% | **3.1** | 0.620 | ⚠ **Least dynamic of five** on peer settings; intl sleeve was 12.8%, reported ~5% |
 | [M4](module4_cost_tax.md) | Cost & Tax | 20% | 4.1 | 0.82 | Cheapest ER (at/below DIY); real rebalancing shield |
 | [M5](module5_manager.md) | Manager / Team | 10% | 3.0 | 0.30 | Best team structure — but the architect left; new lead unproven |
 | [M6](module6_amc.md) | AMC | 5% | 3.7 | 0.185 | #4 AMC, best gold-ETF desk; Reliance-era debt blemish |
-| **TOTAL** | | **100%** | | **≈ 3.71** | |
+| **TOTAL** | | **100%** | | **⚠ ≈ 3.51** | |
 
 ---
 
@@ -44,9 +55,9 @@ Three data-driven reframings, each honest about a label:
 
 ## The Genuine Strengths
 
-- **Returns leader (M1 4.1).** SI CAGR 18.28%; **+3.85%/yr blended-benchmark alpha; beats a DIY basket by ~+4.8%/yr** — the widest DIY margin in the study.
+- **Strong returns (M1 3.8).** SI CAGR 18.28%; ⚠ **corrected alpha +1.39–1.48%/yr** (not +3.85%) and **DIY edge +2.92–3.23%/yr** (not +4.8%) once measured against the fund's actual five-leg SID benchmark.
 - **Cheapest in the shortlist (M4 4.1).** ~0.27–0.43% ER — *at or below* the all-in cost of doing it yourself. And because it genuinely rebalances, its **internal tax shield is real** (~0.15–0.25%/yr).
-- **A real allocation engine + the broadest book (M3 3.4).** Equity oscillated 54–70%; six sleeves including genuine **international equity** (MSCI World ~5%) — the only fund so far to diversify beyond India.
+- **The broadest book in the study (M3 3.1).** Six genuine sleeves including **international equity — measured at ~12.8% effective, not the ~5% first reported** — the only fund here to diversify beyond India. ⚠ But on identical peer settings its allocation dial is the **least dynamic of the five** cycle-tested funds.
 - **Best gold/silver-ETF desk in the study (M6).** India's #1 ETF house — the engine of its cost advantage.
 - **Real 2022 cushioning** (unlike the young WOC/ABSL) and fast recoveries.
 
@@ -75,7 +86,7 @@ Three data-driven reframings, each honest about a label:
 
 ## ⭐ Nippon vs SBI — the Head-to-Head (the study's central comparison so far)
 
-The two cycle-tested funds finished in a **virtual dead heat** (Nippon ≈3.71, SBI ≈3.66) — reached by **opposite routes**:
+⚠ **Superseded by the Aug-2026 corrections: Nippon now sits below SBI (≈3.51 vs ≈3.66).** The original comparison read:
 
 | Axis | Nippon | SBI | Winner |
 |------|--------|-----|--------|
@@ -87,7 +98,7 @@ The two cycle-tested funds finished in a **virtual dead heat** (Nippon ≈3.71, 
 | AMC (M6) | 3.7 | 3.9 | **SBI** |
 | Correlation to your equity | 0.82 (worse diversifier) | 0.73 | **SBI** |
 | Downside capture | 38% | 8% | **SBI** |
-| **Final** | **≈3.71** | **≈3.66** | **~tie** |
+| **Final** | ~~≈3.71~~ **≈3.51** | **≈3.66** | ⚠ **SBI now ahead** |
 
 **They are different products for different jobs:**
 - **Nippon** = *equity-plus / return-and-cost leader.* Choose it for **higher through-cycle return, the lowest fee, a real allocation engine, and international diversification** — if you can accept BAF-like risk, a bull-only record, and a manager transition.
@@ -110,8 +121,8 @@ The two cycle-tested funds finished in a **virtual dead heat** (Nippon ≈3.71, 
 
 ## One-Line Verdict
 
-**The returns-and-cost champion of the cycle-tested funds — cheapest fee (at/below DIY), widest DIY-beating margin, a real allocation engine, and the broadest book (with international) — but an equity-*tilted*, bull-flattered, never-severe-bear-tested fund whose entire winning record belongs to an architect who left in early 2026; a strong ≈3.71/5 that ties SBI by the opposite route (return vs risk) and whose slot depends on whether the portfolio wants participation-at-low-cost or genuine downside protection.**
+**The cheapest fund in the shortlist and the broadest book in it — six genuine sleeves including a ~12.8% international allocation no peer offers — but a fund whose headline margins shrank materially once it was measured against its own five-leg SID benchmark rather than an invented three-leg one (alpha +1.39–1.48%/yr, not +3.85%), whose reported volatility is understated by 7.6% because it is the only fund here to fail the stale-pricing test, whose allocation dial turns out to be the *least* dynamic of the five cycle-tested funds, and whose entire winning record belongs to an architect who left in early 2026: a revised ≈3.51/5, now behind SBI rather than tied with it.**
 
 ---
 
-*Fund README complete. All six modules + README done (Jul 30 2026). Final weighted score ≈ 3.71/5. Method: MFAPI self-computation (scheme 148457) + return-based style analysis + factsheet/web backfill (ValueResearch, Groww, Nippon product notes, Business Standard). Second of six shortlist funds; **virtual tie with SBI (≈3.66) by the opposite route.** Feeds the decision tree (fund-vs-DIY, the risk-vs-return sub-type choice, and the manager-transition risk). Next fund: Quant Multi Asset.*
+*Fund README complete. All six modules + README done (Jul 30 2026); **corrected and extended Aug 2026 — final weighted score revised 3.71 → ≈ 3.51/5** (M1 4.1→3.8, M2 3.6→3.3, M3 3.4→3.1; M4/M5/M6 unchanged). See the addenda in [M1](module1_returns.md), [M2](module2_risk.md) and [M3](module3_allocation.md). Method: MFAPI self-computation (scheme 148457) + return-based style analysis + factsheet/web backfill (ValueResearch, Groww, Nippon product notes, Business Standard). ⚠ **Now third of seven studied funds, behind ICICI (≈3.82) and SBI (≈3.66).** Feeds the decision tree (fund-vs-DIY, the risk-vs-return sub-type choice, and the manager-transition risk). Next fund: Quant Multi Asset.*

@@ -189,3 +189,47 @@ For a ₹15–20k/month SIP, Module 6 completes the case *against* Quant as a co
 ---
 
 *Module 6 complete. Provisional score 1.8/5. Method: web research (Business Standard, BW Businessworld, ValueResearch, CBInsights). Carry-forward from prior studies (Quant AMC 1.25 during the open probe), updated for the **accepted settlement** (→ ~1.8). **Cross-module retrofit (Edelweiss discipline):** M6 confirms and completes the M5 governance finding — the front-running case is both a personal-manager and an AMC-institution failure, and quant is additionally the weakest-equipped house to run a multi-asset fund (thin debt, rented commodities). A **minor retrofit flag was raised on Nippon's M6** (CEO Sikka's separate SEBI settlement — noted for follow-up, not re-scored). **Final six-module weighted score ≈ 3.20/5 — Quant is last of the three cycle-tested funds, the study's cautionary case: the returns leader that the risk-and-governance framework disqualifies.** All Quant modules complete → next: the Quant fund README.*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — the Front-Running Settlement Independently Verified, plus the AMC's Undisclosed Provenance
+
+> **Why this addendum exists.** The MidCap study discovered that a claimed *"2022 front-running case"* against ICICI Prudential **did not exist** — no SEBI order — and had to be retracted. That precedent required this module's central fact, on which its **1.8 score and near-veto verdict rest**, to be re-verified against independent sources. **It has been, and it holds.**
+
+## A1. ✅ The settlement — verified, and now dated and quantified
+
+| Claim in this module | Verification status |
+|---|---|
+| SEBI raids, June 2024, Mumbai & Hyderabad | ✅ **Confirmed** — 20 June 2024, front-running / market abuse / insider trading, involving founder-CIO **Sandeep Tandon** and HNI investor **Sumana Paruchuri** |
+| Transactions of ₹70–80 Cr | ✅ **Confirmed** across multiple independent outlets |
+| Settlement **filed** | ✅ **Confirmed** (BW Businessworld) |
+| ⚠ Settlement **accepted / case closed** — *the claim that lifted the score off the prior study's 1.25* | ✅ **VERIFIED by a second, independent report** — *"SEBI Committee Accepts Settlements from Nippon and Quant Mutual Fund Executives in Separate Cases"* (BW Businessworld). SEBI's High Powered Advisory Committee accepted; the case closes without further prosecution, on payment of a fine and without admission or denial of guilt |
+| **NEW — settlement quantum** | **₹1–2 crore per individual**, reported **August 2025** |
+
+**The module's central fact stands.** Unlike the ICICI claim, this one is real, independently corroborated, and now dated (Aug-2025) and quantified (₹1–2 Cr each).
+
+**The verification cuts both ways, and both belong in the record.** A closed case removes existential tail risk — no ban, no shutdown, no ongoing prosecution — which is what justified lifting the score above the prior study's 1.25. **But ₹1–2 crore is a very small penalty relative to ₹70–80 crore of alleged transactions**, and a consent settlement means **no findings of fact were ever established.** An investor gets closure, not exoneration.
+
+## A2. ⚠ NEW — the AMC's provenance is not disclosed in this module
+
+**quant Mutual Fund is the former Escorts Mutual Fund**, acquired by quant Money Managers in **2018**. This module describes the AMC as *"young"* but never states that it **bought an existing licence rather than building one**, or that its fund track records pre-date its own control.
+
+**M1's addendum quantifies why this matters:** the Multi Asset scheme's NAV series begins Jan-2013, but **37% of it belongs to Escorts** — and that segment is unusable (volatility 38.13%, a single day of −44.80% and another of +81.23%, lag-1 autocorrelation −0.42). **The AMC's genuine operating history is ~8.6 years, not 13.6.**
+
+This is a **governance-relevant disclosure gap**, not merely a data one: an AMC that acquired its licence in 2018, grew from roughly ₹100 Cr to over ₹1 lakh crore by 2024, and was raided by SEBI in June 2024 has a **six-year operating record**, and the scheme track records that attracted those flows were substantially not its own.
+
+## A3. ⚠ A finding for another fund in this study
+
+The same BW Businessworld report is headlined *"SEBI Committee Accepts Settlements from **Nippon** and Quant Mutual Fund Executives in Separate Cases."* **Nippon's Module 6 scored 3.7 and records only a *"genuine (if remediated) fixed-income blemish"* — it does not mention any SEBI settlement by a Nippon executive.** This module cannot establish the Nippon matter's nature or severity from a headline, and does **not** assert one. **It is flagged as a verification item for Nippon's Module 6**, since an unrecorded executive-level SEBI settlement would be material to a 3.7 governance score.
+
+## A4. Score
+
+| Sub-dimension | Was | **Now** | Reason |
+|---|---|---|---|
+| Regulatory record | — | **unchanged** | ✅ **The settlement is verified, dated (Aug-2025) and quantified (₹1–2 Cr each).** The ₹1–2 Cr quantum against ₹70–80 Cr of alleged transactions, and the absence of any established findings of fact, are noted — they justify the existing severity rather than reducing it |
+| Heritage / institutional longevity | — | **unchanged** | The **Escorts provenance** reinforces the module's existing "young boutique" characterisation with a specific, previously-missing fact |
+| **Module 6 Overall** | **~1.8** | **~1.8 / 5 (unchanged)** | **The audit was warranted and the verdict survives it.** The defining fact is real, unlike the ICICI claim that prompted the check — and the newly-surfaced Escorts provenance supports rather than softens the assessment |
+
+---
+
+*Addendum complete. **Method:** settlement acceptance verified against a second independent report (BW Businessworld, *"SEBI Committee Accepts Settlements from Nippon and Quant Mutual Fund Executives in Separate Cases"*), cross-checked against the original filing report and contemporaneous coverage (Business Standard, Moneylife, StockGro). AMC provenance (Escorts Mutual Fund → quant Money Managers, 2018) cross-referenced to the NAV-series era split in M1's addendum. **Handoff:** the possible Nippon executive settlement → **Nippon Module 6, unverified, flagged for checking.***

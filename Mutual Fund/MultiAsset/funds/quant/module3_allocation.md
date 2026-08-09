@@ -204,3 +204,62 @@ For a ₹15–20k/month SIP, Module 3 clarifies what Quant's "multi-asset alloca
 *Module 3 complete. Provisional score 3.3/5. Method: return-based style analysis (quant era 2020+, MFAPI 120821 vs Nifty 50 120620 / ICICI All Seasons Bond 120603 / SBI Gold 119788, 78 monthly obs) + factsheet holdings (ValueResearch). **Cross-module retrofits (Edelweiss discipline):** (1) **M1** — 44% residual means the alpha is momentum stock-selection, not allocation skill; (2) **M2** — the debt is high *credit* quality (govt/AAA), softening the "ballast" critique on quality (not quantity); (3) the extreme turnover connects directly to the **M6 SEBI front-running probe.** No prior scores change. **Deferred:** exact turnover, holdings count, sector %, leverage/derivative disclosure — factsheet items the aggregators don't publish (a bigger gap for a high-churn fund).*
 
 *Next: [Module 4 — Cost & Tax Efficiency](module4_cost_tax.md)*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — SID Mandate Bands, and Effective Equity Beta Above the Mandate Ceiling
+
+> **Why this addendum exists.** This module deferred the SID allocation bands, turnover, holdings count, sector percentages and derivative disclosure — *"factsheet items the aggregators don't publish (a bigger gap for a high-churn fund)."* The SID has now been retrieved and closes the first of those. It also produces a finding the module could not have reached without it.
+
+## A1. The SID allocation bands — verbatim
+
+> *"Under normal circumstances the asset allocation will be:"*
+>
+> | Instrument | Min | Max |
+> |---|---|---|
+> | Equity and equity related instruments | **10%** | **80%** |
+> | Debt and money market instruments | **10%** | **80%** |
+> | Gold ETF, Silver ETF & any other mode of investment in commodities (excluding commodity derivatives) | **10%** | **80%** |
+> | **Exchange Traded Commodity Derivatives (ETCDs)** & any other mode of investment in commodities | **0%** | **30%** |
+> | Units issued by REITs / InvITs | **0%** | **10%** |
+>
+> — *quant Multi Asset Fund SID (March 2025), Part II §A, verbatim*
+
+**This is the widest mandate in the study — 10–80% on all three primary classes simultaneously**, versus WOC's 10–80/10–80/10–50 and ICICI's tighter working bands. It formally licenses the extreme dynamism this module measured, and confirms the "genuine engine" characterisation is mandate-backed rather than drift.
+
+## A2. ⚠ The finding: measured equity beta exceeds the mandate ceiling
+
+Re-running the rolling-26-week style analysis on the settings used for every other fund:
+
+| Fund | Rolling equity range | Range (pp) | sd (pp) | Static R² |
+|---|---|---|---|---|
+| **Quant** | **23.3 – 97.6%** | **74.3** | **19.2** | **0.582** |
+| ICICI Pru | 39.4 – 93.7% | 54.3 | 12.3 | 0.822 |
+| UTI | 38.2 – 77.6% | 39.4 | 9.0 | 0.900 |
+| SBI | 28.3 – 60.0% | 31.7 | 7.0 | 0.855 |
+| Nippon | 46.1 – 66.9% | 20.8 | 4.8 | 0.895 |
+
+✅ **Quant is confirmed the most dynamic fund in the study by a wide margin, and the least reproducible by a static basket (R² 0.582).** Both of this module's central claims survive.
+
+⚠ **But peak effective equity beta reached 97.6% — roughly 18 percentage points above the SID's own 80% equity ceiling.** Two readings, and the module cannot distinguish them from returns alone:
+
+1. **A high-beta equity book.** If the equity sleeve holds momentum and small/mid names with betas well above 1.0, a 70–80% cash-equity weight can produce a 95%+ effective *beta* without breaching the mandate. This is the benign and more likely reading, and it fits the fund's documented VLRT momentum style.
+2. **Derivative amplification.** The SID permits ETCDs to 30% and the scheme uses index futures (the SID illustrates short Nifty futures positions explicitly). Derivative exposure could lift effective beta above the cash-holding cap.
+
+**Either way the practical implication is the same and it belongs in the risk assessment: an investor sizing this fund off its stated 10–80% equity band is understating the fund's peak market sensitivity by roughly a fifth.** This is a genuine addition to M2's case for Quant's equity-level risk.
+
+## A3. What remains deferred
+
+The SID does not publish them and no aggregator carries them: **portfolio turnover ratio** (the largest gap — Quant is industry-known for very high churn, and this module flagged it), **holdings count**, **sector percentages**, and **the derivative/leverage disclosure** that would settle §A2. These require the monthly factsheet, which was not retrievable.
+
+## A4. Score
+
+| Sub-dimension | Was | **Now** | Reason |
+|---|---|---|---|
+| Allocation model — exists & is testable | — | **unchanged** | ✅ **Confirmed by the SID's 10–80% bands** — the dynamism is mandate-licensed, not drift |
+| Dynamism (tactical range) | — | **unchanged** | ✅ **Confirmed as the study's most dynamic** on identical peer settings (74.3pp range, sd 19.2, R² 0.582) |
+| **Module 3 Overall** | **~3.3** | **~3.3 / 5 (unchanged)** | The SID **validates** this module's two central claims. The beta-above-ceiling finding is a **risk** observation, handed to M2, not an allocation-engine deduction |
+
+---
+
+*Addendum complete. **Method:** allocation bands taken **verbatim from the quant Multi Asset Fund SID (March 2025)**, retrieved from quantmutual.com and text-extracted. Dynamism re-computed on identical three-factor rolling-26-week settings to ICICI (120334), SBI (119843), UTI (120760) and Nippon (148457). **Handoff to M2:** peak effective equity beta of 97.6% against an 80% mandate ceiling is a material addition to the equity-level-risk case.*

@@ -240,3 +240,80 @@ For a ₹15–20k/month SIP, Quant Multi Asset is the return maximiser — and t
 *Module 1 complete. Provisional score 4.3/5. Method: self-computed from MFAPI 120821 (3,336 NAVs, 07-Jan-2013 → 29-Jul-2026), with the Escorts-era (pre-2020) data flagged unreliable and the analysis anchored on the quant era (2020+); blends from Nifty 50 (120620) / ICICI All Seasons Bond (120603) / SBI Gold (119788); factsheet (managers, VLRT, tax, ER) from ValueResearch. **Cross-module handoffs:** the equity-like risk & −32.6% drawdown → M2 (will weigh heavily at 25%); VLRT allocation-skill-vs-momentum-beta → M3; the ER discrepancy (VR 0.51% vs screener 1.16%) + dynamic tax status → M4; Sandeep Tandon key-person concentration → M5; the **SEBI front-running probe → M6 (likely veto)**. First module for this fund — no retrofit. **The returns are the peak of Quant's case; every subsequent module extracts a price.***
 
 *Next: [Module 2 — Risk Profile](module2_risk.md)*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — Primary-Source Benchmark, and a Material Correction to the Record's Length
+
+> **Why this addendum exists.** A study-wide audit found Quant's write-up to be the **thinnest of the seven funds** (1,455 lines, 24 charts) despite having the **joint-fullest evidence base** (13.6 years, 3,338 NAVs, all five stress events) — and, like the four other early studies, built entirely from aggregators rather than the scheme's own documents. The SID has now been retrieved. **The benchmark claim survives; the record-length claim does not.**
+
+## A1. ⭐ The Real Benchmark — from the SID, verbatim
+
+> **"AMFI Tier I Benchmark - Composite Benchmark of 65% BSE 200 + 15% CRISIL Short Term Bond Fund Index + 20% iCOMDEX Composite Index"**
+> — *quant Multi Asset Fund SID (March 2025), Product Labelling, verbatim*
+
+**This is different from both figures the study worked with.** Tickertape records the benchmark as *"NIFTY 500 TRI"* (wrong — a single equity index). This module used a blend of **55% Nifty 50 / 10% debt / 35% gold**. The real benchmark is **65% BSE 200 / 15% CRISIL Short Term Bond / 20% iCOMDEX Composite** — a broad *commodity* index, not gold.
+
+### ⭐ And here the errors cancel — the alpha claim survives intact
+
+| Benchmark construction | CAGR | **Quant alpha** |
+|---|---|---|
+| **Quant Multi Asset** (Sep-2019 → Jul-2026) | **25.71%** | — |
+| *M1 as published* — 55% Nifty 50 / 10% debt / 35% gold | 15.88% | **+9.84%/yr** |
+| ✅ **SID benchmark** — 65% BSE 200 / 15% ST bond / 20% commodity | **15.87%** | **+9.84%/yr** (daily) · **+9.63%** (annual) |
+| Robustness: 60/15/25 | 16.17% | +9.55% |
+| Robustness: 70/15/15 | 15.56% | +10.15% |
+
+**The published blend was wrong in construction and right in outcome — to within one basis point.** It under-weighted equity (55% vs 65%) and used a weaker equity index (Nifty 50 vs BSE 200), which *understated* the benchmark; but it over-weighted the commodity leg at 35% gold vs 20% broad commodities, and gold massively outperformed, which *overstated* it. **The two errors offset almost exactly.**
+
+**This is the opposite of what the same audit found at Nippon**, where correcting the benchmark cut the alpha from +3.85% to +1.39–1.48%/yr. **Quant's +9.6 to +9.8%/yr alpha is robust, verified against its own SID, and remains by far the largest in the study.**
+
+> ⚠ **One caveat on the proxy:** no Indian index fund tracks iCOMDEX Composite, so gold is used as the commodity leg. Gold has substantially outperformed broad commodities over this window, which makes the proxy benchmark **harder** than the real one. The true alpha vs the actual iCOMDEX-based benchmark is therefore likely **higher still**, not lower.
+
+### Corrected DIY test
+
+| | CAGR | **Quant edge** |
+|---|---|---|
+| *M1 as published* — DIY 65/25/10, Nifty-50 leg | 13.08% | +12.63%/yr |
+| ✅ **DIY 65/25/10, Nifty-500 + short-duration-debt legs** | **14.44%** | **+11.27%/yr** (daily) · **+11.16%** (annual) |
+
+**Still the largest DIY margin in the study by a wide distance** — roughly three times ICICI's +4.02pp/yr.
+
+## A2. ⚠ THE CORRECTION: 37% of the "13.6-year record" is a different AMC, and its NAV series is unusable
+
+**quant Mutual Fund is the former Escorts Mutual Fund**, acquired by quant Money Managers in 2018. The MFAPI series begins Jan-2013, but the first five years belong to the predecessor.
+
+| Era | Length | CAGR | Vol | Max DD | Lag-1 autocorrelation | Verdict |
+|---|---|---|---|---|---|---|
+| **Escorts era** (Jan-2013 → Jan-2018) | 5.0y (**37%**) | 7.24% | ⚠ **38.13%** | ⚠ **−44.80%** | ⚠ **−0.4216 (t = −14.79)** | ❌ **Unusable** |
+| **quant era** (Jan-2018 → Jul-2026) | 8.6y | **21.42%** | **13.31%** | −32.57% | +0.0467 (t = 2.14) | ✅ The real record |
+| *Full series as published* | 13.6y | *16.00%* | *25.44%* | *−44.80%* | *−0.3535* | ⚠ *Contaminated* |
+
+**The Escorts-era series contains a single day of −44.80% and another of +81.23%.** Those are not market moves — they are NAV artifacts in a tiny, thinly-traded fund, and the lag-1 autocorrelation of **−0.42** is the classic signature of erratic pricing rather than genuine mean reversion.
+
+**Consequences:**
+- **Any full-life figure is corrupted.** The −44.80% "max drawdown" is an artifact; the real worst drawdown is **−32.57%** (which M2 correctly used). Full-life volatility of 25.44% is likewise meaningless — the quant era runs **13.31%**.
+- **The usable record is 8.6 years, not 13.6.** This module's comparative tables list Quant as *"13.6y (2020+ reliable)"* — directionally right, but the correct cut-off is **Jan-2018** (the AMC change), and the excluded portion is 37%, not the ~50% that "2020+" implies.
+- **This mirrors ICICI's finding but is more severe.** ICICI's pre-2018 record was the same AMC running a different mandate; **Quant's pre-2018 record is a different AMC entirely.**
+
+## A3. ⚠ A second, milder finding: Quant marginally fails the stale-pricing test in its own era
+
+| Window | Lag-1 autocorrelation | t | Unsmoothed vol vs reported |
+|---|---|---|---|
+| quant era (2018–2026) | **+0.0467** | **2.14** ⚠ marginally significant | 13.88% vs 13.31% |
+| *Nippon (for comparison)* | *+0.0746* | *2.84* | *10.26% vs 9.54%* |
+
+**Volatility is understated by ~0.57pp (4.3%)** — real but roughly half Nippon's 7.6%, and a second-order issue next to the record-length correction.
+
+## A4. Score
+
+| | Was | **Now** | Reason |
+|---|---|---|---|
+| Alpha vs blended benchmark | — | **unchanged** | ✅ **Verified against the SID; the published figure was right.** Offsetting construction errors, confirmed by robustness testing |
+| Beat the DIY static basket | — | **unchanged** | +11.16–11.27%/yr — still the largest margin in the study by ~3× |
+| Severe-bear test / inception bias | — | **unchanged (already 2.5)** | The record-length correction *reinforces* the existing lowest sub-score rather than requiring a new deduction |
+| **Module 1 Overall** | **~4.3** | **~4.3 / 5 (unchanged)** | **The benchmark correction validates the alpha; the record-length correction sharpens a caveat the module already carried at its lowest sub-score.** The two findings net out |
+
+---
+
+*Addendum complete. **Method:** benchmark taken **verbatim from the quant Multi Asset Fund SID (March 2025)**, retrieved from quantmutual.com and text-extracted. Corrected blends built from Motilal Oswal Nifty 500 Index (**147625**) as the BSE-200 proxy, HDFC Short Term Debt (**119016**) as the CRISIL-ST-Bond proxy, and SBI Gold (**119788**) as the iCOMDEX proxy — the last flagged as conservative (gold has outperformed broad commodities, making the proxy benchmark harder than the real one). Era split at Jan-2018 (quant Money Managers' acquisition of Escorts Mutual Fund); autocorrelation and Geltner unsmoothing computed per era from MFAPI **120821**.*

@@ -204,3 +204,70 @@ For a ₹15–20k/month SIP, Module 3 tells you Nippon is a *genuinely* managed 
 *Module 3 complete. Provisional score 3.4/5. Method: return-based style analysis (MFAPI 148457 vs Nifty 50 120620 / ICICI All Seasons Bond 120603 / SBI Gold 119788, 71 monthly obs) + factsheet holdings/managers (ValueResearch, Groww). **Cross-module retrofits (Edelweiss discipline):** (1) **M1** — the index-like equity book (85% R²) means the +3.85% alpha is allocation-*weight*, not stock selection, weakening the "skill" reading (no score change); (2) **M2** — the ~5% international sleeve adds a sliver of genuine global decorrelation (marginal); (3) **new finding for M5** — the equity manager (Vinay Sharma) is new as of Jan 2026, so the 2020–25 equity record belongs to a predecessor. **Deferred:** exact turnover, PE, sector %.*
 
 *Next: [Module 4 — Cost & Tax Efficiency](module4_cost_tax.md)*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — the Missing International Leg, and a Dynamism Correction
+
+> **Why this addendum exists.** This module ran a **three-factor** style analysis (domestic equity / debt / gold) and treated international exposure as a footnote — *"net ~56% (incl. ~5% intl)"*. **The SID declares a 20% MSCI World Index TRI benchmark leg**, and a four-factor reconstruction shows the fund actually runs **~12.8% effective international equity**. This section adds the missing leg, re-runs the dynamism comparison on the settings used for every other fund, and corrects two sub-scores.
+
+## A1. ⭐ The fourth asset class — international equity is ~12.8%, not ~5%
+
+**Adding an international leg improves the fit materially, which is itself the proof it belongs:**
+
+| Model | R² |
+|---|---|
+| 3-factor (domestic equity / debt / gold) — *as published* | 0.895 |
+| **4-factor (+ international equity)** | **0.930** |
+
+**+3.5 percentage points of explained variance from one leg.**
+
+| Sleeve | **Effective weight (4-factor, full period)** | SID benchmark declares |
+|---|---|---|
+| Domestic equity | **53.7%** | 50% (BSE 500 TRI) |
+| **International equity** | **12.8%** *(range 6.5–23.3%)* | **20% (MSCI World TRI)** |
+| Debt | 16.5% | 15% (CRISIL ST Bond) |
+| Gold + silver | 17.0% | 15% (10% gold + 5% silver) |
+
+```mermaid
+xychart-beta
+    title "Nippon - effective international equity weight, rolling 26-week (%)"
+    x-axis ["Mar-21", "Dec-21", "Sep-22", "Jun-23", "Mar-24", "Jan-25", "Oct-25", "Jul-26"]
+    y-axis "International equity %" 0 --> 25
+    bar [15.1, 13.3, 16.4, 10.0, 16.0, 11.8, 8.3, 10.1]
+```
+
+**This is a genuine, persistent, tactically-varied fifth sleeve — and it materially strengthens the asset-breadth case this module already scored highly (4.5).** It is also the mechanical cause of the **stale-pricing failure documented in M2's addendum**: overseas holdings priced after the Indian NAV cut-off produce the +0.0746 lag-1 autocorrelation, understating volatility by 7.6%.
+
+**⚠ But it cuts the other way on transparency.** The published module described international as *"~5%"* — less than half the measured exposure — and never reconstructed it. **An investor reading this study would have underestimated the fund's overseas exposure by a factor of two and a half**, and would not have known that a fifth of its declared benchmark is a global equity index.
+
+## A2. ⚠ Dynamism — re-run on peer settings, Nippon is the *least* dynamic of the five
+
+The published module scored dynamism **3.5** on *"genuine oscillation, equity 54–70%"*. Re-run on the **identical rolling-26-week settings used for ICICI, SBI, UTI and Quant** (Sep-2019 → Jul-2026 where available, three-factor for comparability):
+
+| Fund | Rolling equity range | **Range (pp)** | **sd (pp)** | Static R² |
+|---|---|---|---|---|
+| Quant | 23.3 – 97.6% | **74.3** | **19.2** | 0.582 |
+| ICICI Pru | 39.4 – 93.7% | **54.3** | **12.3** | 0.822 |
+| UTI | 38.2 – 77.6% | 39.4 | 9.0 | 0.900 |
+| SBI | 28.3 – 60.0% | 31.7 | 7.0 | 0.855 |
+| **Nippon** | **46.1 – 66.9%** | ⚠ **20.8** | ⚠ **4.8** | 0.895 |
+
+**Nippon has the narrowest realised equity range and the lowest weight-variability of the five funds with comparable history.** The published characterisation — *"a real, discretionary engine (unlike SBI)"* — does not survive the like-for-like comparison: **Nippon's dial moves less than SBI's** (20.8pp vs 31.7pp; sd 4.8 vs 7.0), and less than half as much as ICICI's.
+
+*(The published "54–70%" figure came from a 24-month rolling window, which smooths more than the 26-week window used for every other fund. The difference is method, not data — but it flattered the fund.)*
+
+## A3. ⚠ Score corrections
+
+| Sub-dimension | Was | **Now** | Reason |
+|---|---|---|---|
+| Dynamism (tactical range) | 3.5 | **2.5** | On identical peer settings Nippon is the **least dynamic of the five** — 20.8pp range, sd 4.8pp, narrower than SBI, which this module used as its static counter-example |
+| Net-vs-gross equity transparency | 3.5 | **3.0** | The international sleeve was reported at **~5%** when it is **~12.8%** — a 2.5× understatement of a fifth asset class, and the analysis never reconstructed it |
+| Asset breadth | 4.5 | **4.5** *(unchanged)* | ✅ The larger international sleeve **confirms** the breadth finding — six genuine sleeves, still the broadest in the study |
+| **Module 3 Overall** | **~3.4** | **⚠ ~3.1 / 5** | Genuinely broad, genuinely multi-asset — but the "active engine" claim does not survive a like-for-like comparison, and a fifth of the book was under-reported |
+
+**What does not change:** the six-sleeve breadth finding, the gold mechanism assessment, the debt-book characterisation, the middle-tier tax confirmation, or the mandate-compliance verdict.
+
+---
+
+*Addendum complete. **Method:** benchmark from the **SID verbatim** (AMFI portal doc 12137). Four-factor constrained style analysis (weights ≥0, sum ≤1, cash residual at 6.5%) against Motilal Oswal Nifty 500 Index (**147625**), **Motilal Oswal S&P 500 Index (148381)** as the MSCI-World proxy, HDFC Short Term Debt (**119016**) and SBI Gold (**119788**), weekly frequency, plus a rolling-26-week path (n=283). Dynamism comparison re-computed on identical three-factor settings for ICICI (120334), SBI (119843), UTI (120760) and Quant (120821). **Still deferred — the AMC product note returned HTTP 403 and no aggregator publishes them:** portfolio turnover ratio, debt modified duration and YTM, equity sector percentages and portfolio PE.*

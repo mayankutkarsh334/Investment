@@ -285,3 +285,59 @@ For a ₹15–20k/month SIP, Nippon's risk profile is the trade you make for its
 *Module 2 complete. Provisional score 3.6/5. Method: self-computed from MFAPI 148457 (1,455 NAVs); correlations vs Nifty 50 (120620), PP FlexiCap (122639), DSP SmallCap (119212), SBI Multi Asset (119843); cousins HDFC Balanced Advantage (118968), SBI Equity Hybrid (119609); legs SBI Gold (119788), ICICI All Seasons Bond (120603). **Cross-module retrofit (Edelweiss discipline):** M2 *confirms* M1's "equity-tilted, not defensive" finding — the 38% downside capture, 0.58 beta, and 0.82 equity correlation prove Nippon is an equity-plus fund; and it makes the "no severe bear" caveat concrete (beta-implied ~−20% severe-bear drawdown). No M1 score change. **Handoffs:** debt duration/credit + net-gross equity + international split → M3; the middle-tier tax → M4; the correlation number → decision tree (Nippon is the weaker diversifier vs SBI).*
 
 *Next: [Module 3 — Allocation Engine & Portfolio DNA](module3_allocation.md)*
+
+---
+
+# ⚠ ADDENDUM (Aug 2026) — the Stale-Pricing Test, and Why Nippon Is the Only Fund That Fails It
+
+> **Why this addendum exists.** The **NAV smoothing / stale-pricing test** (lag-1..3 autocorrelation plus Geltner unsmoothing) was introduced later in this study, on WOC's Module 2, and reference figures were computed for the peers. **Nippon was the one fund that returned a statistically significant result — and it was never followed up.** This section does that, and the finding is material.
+
+## A1. ⚠ The test — Nippon fails it, uniquely in this study
+
+| Fund | Lag-1 autocorrelation | t-stat | Significant? |
+|---|---|---|---|
+| **Nippon** | **+0.0746** | **2.84** | ⚠ **YES** |
+| ICICI Pru | +0.0301 | 1.74 | no (borderline) |
+| SBI | +0.0208 | 0.58 | no |
+| Quant | +0.0034 | 0.09 | no |
+| WOC | −0.0102 | −0.28 | no |
+| UTI | −0.0195 | −0.55 | no |
+| ABSL | −0.0265 | −0.74 | no |
+
+*(|t| > 1.96 = significant at 5%. Lag-2 −0.0369 (t −1.41), lag-3 −0.0534 (t −2.04) — the mean-reversion pattern that follows a smoothed series.)*
+
+**Positive first-order autocorrelation in daily NAV returns means today's move partly repeats yesterday's — the signature of holdings priced with a lag.** For Nippon the cause is identifiable and benign in intent: **the fund holds a material international equity sleeve** (A2 below, and M3's addendum), and overseas markets close after the Indian NAV cut-off, so a portion of the book is marked on stale prices.
+
+## A2. The consequence — reported volatility is understated, Sharpe overstated
+
+```mermaid
+xychart-beta
+    title "Nippon - reported vs unsmoothed risk"
+    x-axis ["Volatility % (reported)", "Volatility % (unsmoothed)", "Sharpe (reported)", "Sharpe (unsmoothed)"]
+    y-axis "Value" 0 --> 11
+    bar [9.54, 10.26, 1.24, 1.15]
+```
+
+| Metric | Reported | **Geltner-unsmoothed** | Effect |
+|---|---|---|---|
+| Annualised volatility | **9.54%** | **10.26%** | ⚠ **understated by 0.72pp (7.6%)** |
+| Sharpe (rf 6.5%) | 1.24 | **1.15** | overstated by 0.09 |
+
+**Nippon is the only fund in this study whose headline risk metrics require a downward adjustment for pricing artifacts.** ICICI's test was borderline and in the same direction (unsmoothed 12.15% vs 11.83%); every other fund was clean.
+
+**This compounds a deflator the module already applied.** The published Module 2 flagged its own Sharpe of 1.34 as *"bull-flattered"* and pointed to Tickertape's conservative 0.88. **The unsmoothing correction is a second, independent reason the risk-adjusted figures overstate the fund** — and unlike the bull-market caveat, this one is a measurement artifact rather than a regime one.
+
+## A3. ⚠ Score corrections
+
+| Sub-dimension | Was | **Now** | Reason |
+|---|---|---|---|
+| Volatility | 3.5 | **3.0** | True volatility is **10.26%**, not 9.52% — squarely in the guide's 9–11% band rather than at its edge, and the *only* fund here needing this adjustment |
+| Sharpe / Sortino | 4.0 | **3.5** | Sharpe falls to **1.15** on unsmoothed data — a second deflator on top of the bull-market caveat the module already carried |
+| **NAV smoothing / stale pricing** *(NEW dimension)* | — | **2.0** | ⚠ **The only fund in the study to fail the test** (t = 2.84). Not a governance problem — it is a mechanical consequence of holding international assets — but it means the published risk numbers flatter the fund |
+| **Module 2 Overall** | **~3.6** | **⚠ ~3.3 / 5** | A respectable dampener whose measured risk was understated by ~7.6%, still never severe-bear-tested |
+
+**What does not change:** the 2022 cushioning evidence, the drawdown ledger, the downside-capture figure (38% — computed on monthly data, largely immune to daily smoothing), or the correlation work.
+
+---
+
+*Addendum complete. **Method:** lag-1..3 autocorrelation of daily returns and Geltner unsmoothing, computed from MFAPI **148457** over 31-Aug-2020 → 31-Jul-2026 (1,457 NAVs), on identical settings to the peer reference figures in WOC's Module 2. **Cause diagnosis** cross-referenced to M3's addendum, which measures the effective international sleeve at ~12.8%.*
