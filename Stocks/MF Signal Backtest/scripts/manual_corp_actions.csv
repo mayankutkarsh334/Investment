@@ -1,0 +1,10 @@
+symbol,date,type,note
+STAR,2013-12-19,measured,Strides Arcolab special dividend (Rs 500) after selling Agila; treated as value-neutral (dividend reinvested)
+FRL,2016-05-11,measured,Future Retail restructuring / demerger of home & retail business into new entity
+DAAWAT,2017-02-07,measured,LT Foods face value split not listed in NSE corporate-action feed
+SINTEX,2017-05-25,measured,Sintex Industries demerger (Sintex Plastics); feed lists only 'Scheme of Arrangement'
+GFLLIMITED,2019-08-06,measured,Gujarat Fluorochemicals demerger into Inox / GFCL
+SUVEN,2020-01-21,measured,Suven Life Sciences demerger of Suven Pharmaceuticals
+MAJESCO,2020-12-23,measured,Majesco special dividend after selling US business
+NXTDIGITAL,2022-11-22,measured,NXTDIGITAL demerger / scheme with Hinduja Global Solutions
+MIRZAINT,2023-03-29,measured,Mirza International demerger of RedTape
